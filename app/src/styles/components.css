@@ -1,0 +1,69 @@
+@import "./tokens.css";
+
+/* SignalChip — status only (baseline / watch / breach), always paired with a word */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  padding: 5px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--swell);
+  border: var(--line) solid var(--rule);
+}
+.chip .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: var(--radius-pill);
+  flex: none;
+}
+.chip .label {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.chip--baseline .dot { background: var(--signal-baseline); }
+.chip--baseline .label { color: var(--signal-baseline); }
+.chip--watch .dot { background: var(--signal-watch); }
+.chip--watch .label { color: var(--signal-watch); }
+.chip--breach .dot { background: var(--signal-breach); }
+.chip--breach .label { color: var(--signal-breach); }
+
+/* EvidenceCard — one ledger entry: chip, mono id/timestamp, actor, finding */
+.card {
+  background: var(--cloth);
+  border: var(--line) solid var(--rule);
+  border-radius: var(--radius-md);
+  padding: var(--s-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+}
+.card .meta {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  color: var(--ink);
+}
+.card .meta .who {
+  display: block;
+  margin-bottom: 3px;
+  font-family: var(--font);
+  color: var(--ink-2);
+  font-size: var(--fs-label);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.card .finding {
+  font-size: var(--fs-small);
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* Categorical identity swatch, used in legends and lane labels */
+.cat-1 { color: var(--series-1); }
+.cat-2 { color: var(--series-2); }
+.cat-3 { color: var(--series-3); }
+.cat-4 { color: var(--series-4); }
+.cat-other { color: var(--series-other); }

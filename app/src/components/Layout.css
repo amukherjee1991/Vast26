@@ -1,0 +1,36 @@
+@import "../styles/tokens.css";
+
+.site-header {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  padding-inline: var(--gutter);
+  background: color-mix(in srgb, var(--ground) 88%, transparent);
+  backdrop-filter: var(--blur-float);
+  border-bottom: var(--line) solid var(--rule);
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-5);
+  font-size: var(--fs-small);
+}
+
+.site-nav a {
+  color: var(--ink-2);
+  text-decoration: none;
+  transition: color var(--t-ui) var(--ease-out);
+}
+
+.site-nav a:hover,
+.site-nav a.is-active {
+  color: var(--ink);
+}
+
+main {
+  min-height: calc(100vh - var(--header-h));
+}

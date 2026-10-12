@@ -1,0 +1,126 @@
+/* Forensic Ledger — design tokens.
+   World: a control room auditing an agentic-AI system after the fact. The page
+   is near-black panel surfaces; light lives in the data (four categorical
+   identity hues, a 3-step status scale) and in the one periwinkle accent that
+   marks the interface's own interactive elements. Chrome stays quiet.
+
+   Status (baseline/watch/breach) is independent of the categorical identity
+   scale (cat-olive/jade/indigo/orchid) and of the accent — a status color
+   never doubles as "which agent", and the accent never doubles as either.
+   The categorical scale is CVD-validated as a set (dataviz validator, all
+   pairs, against #0E1223 dark): worst all-pairs ΔE 7.7 CVD / 19.0 normal.
+
+   Source of truth: design-system/forensic-ledger-tokens.json at the repo
+   root (also published as the "Forensic Ledger" Claude Artifact design
+   system) — these values are copied from there, not re-derived here. */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --abyss: #01040c;           /* deepest: behind stages, full-bleed sections */
+  --ground: #020617;          /* page (surface-void) */
+  --cloth: #0e1223;           /* raised surface: cards, tooltips, panels (surface-panel) */
+  --swell: #141a33;           /* hover / selected surface (surface-raised) */
+  --ink: #f4f6fb;             /* primary text                              18.7:1 */
+  --ink-2: #8b97b0;           /* secondary text: timestamps, captions       6.3:1 on cloth */
+  --ink-3: #6b7793;           /* tertiary / micro-muted                     4.3:1 on cloth */
+  --rule: #232a45;            /* hairlines, card borders (border-hairline) */
+  --rule-strong: #333c5e;
+  --moon: #7c9cff;            /* accent: links, focus rings, the one active element — never status, never identity */
+
+  /* Categorical identity — fixed order, never cycled; color follows the entity */
+  --series-1: #896a00;  /* cat-olive */
+  --series-2: #31ad5a;  /* cat-jade */
+  --series-3: #3077dd;  /* cat-indigo */
+  --series-4: #b04da9;  /* cat-orchid */
+  --series-5: #f4f6fb;  /* ink: fills only, always outlined; lines dashed */
+  --dash-4: none;
+  --dash-5: 4 3;
+  --series-other: #8b97b0; /* fold here past 4 entities; always pair with a direct text label */
+
+  /* Status — reserved, exclusive meaning, always paired with its word */
+  --signal-baseline: #4fd1c5;  /* ordinary behavior; a gate that successfully contained an incident */
+  --signal-watch: #f6c453;     /* leading indicator / near-miss that never escalated */
+  --signal-breach: #f2606b;   /* the one confirmed anomalous event */
+
+  /* Type: IBM Plex Sans runs prose and the interface; IBM Plex Mono is for
+     every ID, timestamp and filename — quoted fact reads differently from
+     written claim by typeface alone. */
+  --font-display: "IBM Plex Sans", system-ui, sans-serif;
+  --font: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
+  --w-display: 700;
+  --w-text: 400;
+  --w-data: 500;
+
+  --fs-hero: clamp(2.5rem, 1.5rem + 3.6vw, 4.25rem);      /* home title */
+  --fs-h1: clamp(2.125rem, 1.4rem + 2.6vw, 3.25rem);       /* report title */
+  --fs-h2: clamp(1.375rem, 1.1rem + 0.9vw, 1.75rem);       /* display-sm: section header, one per question */
+  --fs-kicker: clamp(1rem, 0.92rem + 0.3vw, 1.125rem);     /* report subtitle */
+  --fs-card: 1.0625rem;                                     /* evidence-card title */
+  --fs-figure: clamp(1.75rem, 1.4rem + 1.2vw, 2.5rem);      /* static stat figures */
+  --fs-readout: clamp(1.5rem, 1.25rem + 0.9vw, 2rem);       /* mono: live/computed values */
+  --fs-h3: 1.0625rem;
+  --fs-lede: 1rem;
+  --fs-body: 0.9375rem;       /* body: 15px */
+  --fs-small: 0.8125rem;      /* body-sm / data-id: 13px */
+  --fs-micro: 0.75rem;        /* eyebrow: 12px */
+  --fs-label: 0.6875rem;      /* data-tag: 11px */
+
+  /* Space: one rhythm, base 4 (space-2/4/6/10 are Forensic Ledger's own) */
+  --s-1: 4px;
+  --s-2: 8px;   /* space-2 */
+  --s-3: 12px;
+  --s-4: 16px;  /* space-4 */
+  --s-5: 24px;  /* space-6 (ledger's naming skips 5) */
+  --s-6: 24px;
+  --s-7: 32px;
+  --s-8: 40px;  /* space-10 */
+  --s-9: 64px;
+  --s-10: 96px;
+  --gutter: clamp(16px, 4vw, 64px);
+  --space-act: clamp(56px, 10vh, 96px);
+
+  --line: 1px;
+  --radius: 6px;        /* radius-sm: chips, tags, small controls */
+  --radius-md: 10px;    /* radius-md: evidence cards, panels */
+  --radius-pill: 999px; /* radius-pill: status pills, the signal dot */
+  --measure: 66ch;
+  --rail: 64px;
+  --header-h: 60px;
+  --hit: 44px;
+
+  --shadow-float: 0 12px 32px -12px rgb(0 0 0 / 0.7), 0 0 0 1px rgb(124 156 255 / 0.08);
+  --blur-float: blur(14px);
+  --halo: 0 1px 3px rgb(2 6 23 / 0.95);
+
+  /* Motion: press 100 / hover 160 / UI 240 / data 700 / story 1200 */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-hoist: cubic-bezier(0.32, 0.72, 0, 1);
+  --t-press: 100ms;
+  --t-ui: 160ms;
+  --t-base: 240ms;
+  --t-hoist: 640ms;
+  --t-data: 700ms;
+  --t-story: 1200ms;
+
+  --shadow-lift: var(--shadow-float);
+}
+
+@media (max-width: 860px) {
+  :root {
+    --header-h: 88px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-press: 0ms;
+    --t-base: 120ms;
+    --t-hoist: 0ms;
+    --t-data: 0ms;
+    --t-story: 0ms;
+  }
+}

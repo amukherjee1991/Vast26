@@ -1,0 +1,73 @@
+@import "../styles/tokens.css";
+
+.home {
+  padding: var(--space-act) var(--gutter);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-act);
+}
+
+.home-hero {
+  max-width: var(--measure);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+}
+
+.home-kicker {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.home-title {
+  font-size: var(--fs-hero);
+}
+
+.home-dek {
+  font-size: var(--fs-lede);
+  color: var(--ink-2);
+}
+
+.home-reports {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--s-5);
+}
+
+.report-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  padding: var(--s-5);
+  background: var(--cloth);
+  border: var(--line) solid var(--rule);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color var(--t-ui) var(--ease-out), transform var(--t-ui) var(--ease-out);
+}
+
+.report-card:hover {
+  border-color: var(--rule-strong);
+  transform: translateY(-2px);
+}
+
+.report-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  color: var(--moon);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.report-card h2 {
+  font-size: var(--fs-h2);
+}
+
+.report-card p {
+  color: var(--ink-2);
+  font-size: var(--fs-small);
+}

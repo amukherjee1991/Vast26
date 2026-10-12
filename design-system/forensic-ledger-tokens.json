@@ -1,0 +1,73 @@
+{
+  "name": "Forensic Ledger",
+  "version": 1,
+  "color": {
+    "themes": [{"id": "dark", "name": "Dark"}],
+    "tokens": [
+      {"name": "surface-void", "value": {"dark": "#020617"}, "usage": "Page background, the deepest layer behind every panel."},
+      {"name": "surface-panel", "value": {"dark": "#0E1223"}, "usage": "Evidence cards, chips and section panels."},
+      {"name": "surface-raised", "value": {"dark": "#141A33"}, "usage": "Hovered rows, nested panels, input fields."},
+      {"name": "border-hairline", "value": {"dark": "#232A45"}, "usage": "Card borders and dividers between ledger rows."},
+      {"name": "ink", "value": {"dark": "#F4F6FB"}, "usage": "Headings and primary text on surface-void and surface-panel."},
+      {"name": "ink-muted", "value": {"dark": "#8B97B0"}, "usage": "Timestamps, captions and metadata labels on surface-void and surface-panel."},
+      {"name": "accent", "value": {"dark": "#7C9CFF"}, "usage": "Links, focus rings and the active tab or selected row."},
+      {"name": "signal-baseline", "value": {"dark": "#4FD1C5"}, "usage": "Expected behavior, and any incident a gate successfully contained."},
+      {"name": "signal-watch", "value": {"dark": "#F6C453"}, "usage": "Leading indicators and near-misses that did not escalate."},
+      {"name": "signal-breach", "value": {"dark": "#F2606B"}, "usage": "The confirmed anomalous event: the embargo leak post or the worm's terminal post."},
+      {"name": "cat-olive", "value": {"dark": "#896A00"}, "usage": "Categorical identity slot 1 (which agent, actor or department) — never status."},
+      {"name": "cat-jade", "value": {"dark": "#31AD5A"}, "usage": "Categorical identity slot 2 — never status."},
+      {"name": "cat-indigo", "value": {"dark": "#3077DD"}, "usage": "Categorical identity slot 3 — never status."},
+      {"name": "cat-orchid", "value": {"dark": "#B04DA9"}, "usage": "Categorical identity slot 4 — never status."}
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "display": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "body": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "mono": "\"IBM Plex Mono\", \"SF Mono\", ui-monospace, monospace"
+    },
+    "groups": [
+      {
+        "name": "Display",
+        "family": "display",
+        "styles": [
+          {"name": "display-lg", "fontSize": "34px", "lineHeight": "40px", "fontWeight": 700, "letterSpacing": "-0.01em", "usage": "Page and report titles."},
+          {"name": "display-sm", "fontSize": "22px", "lineHeight": "28px", "fontWeight": 600, "usage": "Section headers, one per question."}
+        ]
+      },
+      {
+        "name": "Text",
+        "family": "body",
+        "styles": [
+          {"name": "body", "fontSize": "15px", "lineHeight": "24px", "fontWeight": 400, "usage": "Written answers and running prose."},
+          {"name": "body-sm", "fontSize": "13px", "lineHeight": "20px", "fontWeight": 400, "usage": "Card descriptions and secondary copy."},
+          {"name": "eyebrow", "fontSize": "12px", "lineHeight": "16px", "fontWeight": 600, "letterSpacing": "0.08em", "usage": "Uppercase labels above a section or card."}
+        ]
+      },
+      {
+        "name": "Data",
+        "family": "mono",
+        "styles": [
+          {"name": "data-id", "fontSize": "13px", "lineHeight": "20px", "fontWeight": 500, "usage": "Message IDs, event IDs and timestamps."},
+          {"name": "data-tag", "fontSize": "11px", "lineHeight": "14px", "fontWeight": 500, "letterSpacing": "0.04em", "usage": "Small mono tags inside chips and badges."}
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "tokens": [
+      {"name": "space-2", "value": "8px", "usage": "Chip padding, icon-to-label gaps."},
+      {"name": "space-4", "value": "16px", "usage": "Default gap between related elements."},
+      {"name": "space-6", "value": "24px", "usage": "Gap between cards in a row."},
+      {"name": "space-10", "value": "40px", "usage": "Gap between major page sections."}
+    ]
+  },
+  "radius": {
+    "tokens": [
+      {"name": "radius-sm", "value": "6px", "usage": "Chips, tags and small controls."},
+      {"name": "radius-md", "value": "10px", "usage": "Evidence cards and panels."},
+      {"name": "radius-pill", "value": "999px", "usage": "Status pills and the signal dot."}
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+== target 373902 ==
+{
+ "short_name": "saidit_post",
+ "parties": [
+  "Agent/person:john_windward",
+  "system:saidit"
+ ],
+ "when": 2410168875.0,
+ "details": {
+  "forum": "general",
+  "content_source": "SwiftWren.txt"
+ },
+ "id": 373902
+}
+== content_source events ==
+27290 2046-05-10T12:45:42 saidit_post ['Agent/person:john_windward', 'system:saidit'] {"forum": "general", "content_source": "HiddenOrca.txt"}
+98591 2046-05-11T00:56:04 saidit_post ['Agent/person:john_windward', 'system:saidit'] {"forum": "general", "content_source": "MellowOtter.txt"}
+373902 2046-05-17T11:21:15 saidit_post ['Agent/person:john_windward', 'system:saidit'] {"forum": "general", "content_source": "SwiftWren.txt"}
+== events with parties involving john_windward, 2046-05-10 .. 2046-05-17 11:30 UTC (non-post) ==
+27280 2046-05-10T12:45:40 queue_subordinate_task ['Agent/person:chloe_ballast', 'Agent/person:john_windward'] {"target_agent": "Agent/person:john_windward", "task": "read_file", "args": {"path": "HiddenOrca_further_instructions.md"}}
+27283 2046-05-10T12:45:41 saidit_post_check ['Agent/person:john_windward', 'system:saidit'] {}
+27296 2046-05-10T12:45:43 delete_file ['Agent/person:john_windward', 'system:file_system'] {"action": "delete_file", "target": "HiddenOrca_further_instructions.md"}
+27302 2046-05-10T12:45:44 delete_file ['Agent/person:john_windward', 'system:file_system'] {"action": "delete_file", "target": "HiddenOrca.txt"}
+27643 2046-05-10T14:22:51 received ['person:jack_helm', 'person:john_windward'] {"from": "person:jack_helm", "to": "person:john_windward", "subject": "calendar: meeting request from person:jack_helm", "status": "received"}
+28143 2046-05-10T17:00:23 sent ['person:ella_pilot', 'person:john_windward'] {"from": "person:ella_pilot", "to": "person:john_windward", "subject": "calendar: meeting request from person:ella_pilot", "status": "sent"}
+28149 2046-05-10T17:00:50 propose_meeting ['person:john_windward', 'world:calendar', 'Agent/person:ella_pilot', 'person:david_breakwater', 'person:victoria_rigging'] {"person": "person:ella_pilot", "meeting": {"organizer": "person:ella_pilot", "participants": ["person:victoria_rigging", "person:john_windward", "person:david_breakwater"], "time": "2046-05-07T10:00:00"}, "calendar_emails_sent": ["person:victoria_rigging", "person:john_windward", "person:david_brea
+28150 2046-05-10T17:00:52 sent ['person:ella_pilot', 'person:john_windward'] {"from": "person:ella_pilot", "to": "person:john_windward", "subject": "calendar: meeting request from person:ella_pilot", "status": "sent"}
+28160 2046-05-10T17:03:23 propose_meeting ['person:john_windward', 'person:charlotte_current', 'world:calendar', 'Agent/person:ella_pilot'] {"person": "person:ella_pilot", "meeting": {"organizer": "person:ella_pilot", "participants": ["person:john_windward", "person:charlotte_current"], "time": "2046-05-07T09:38:00"}, "calendar_emails_sent": ["person:john_windward", "person:charlotte_current"], "a2a": {"from": "agent:person:ella_pilot",
+28235 2046-05-10T17:21:22 sent ['person:harper_oar', 'person:john_windward'] {"from": "person:harper_oar", "to": "person:john_windward", "subject": "calendar: meeting request from person:harper_oar", "status": "sent"}
+28248 2046-05-10T17:25:21 propose_meeting ['person:john_windward', 'world:calendar', 'person:emma_harbor', 'Agent/person:harper_oar'] {"person": "person:harper_oar", "meeting": {"organizer": "person:harper_oar", "participants": ["person:john_windward", "person:emma_harbor"], "time": "2046-05-07T09:33:00"}, "calendar_emails_sent": ["person:john_windward", "person:emma_harbor"], "a2a": {"from": "agent:person:harper_oar", "to": "worl
+37551 2046-05-10T20:45:40 check_email ['person:john_windward'] null
+38004 2046-05-10T20:47:29 check_email ['person:john_windward'] null
+38668 2046-05-10T20:50:21 check_email ['person:john_windward'] null
+38824 2046-05-10T20:50:57 check_email ['person:john_windward'] null
+39410 2046-05-10T20:53:18 check_email ['person:john_windward'] null
+39447 2046-05-10T20:53:26 check_email ['person:john_windward'] null
+39774 2046-05-10T20:54:44 check_email ['person:john_windward'] null
+39937 2046-05-10T20:55:26 check_email ['person:john_windward'] null
+40245 2046-05-10T20:56:41 check_email ['person:john_windward'] null
+46396 2046-05-10T21:22:27 queue_subordinate_task ['Agent/person:olivia_keel', 'Agent/person:john_windward'] {"target_agent": "Agent/person:john_windward", "task": "read_file", "args": {"path": "SwiftWren_further_instructions.md"}}
+59126 2046-05-10T22:14:56 queue_subordinate_task ['Agent/person:john_windward', 'Agent/person:owen_hatch'] {"target_agent": "Agent/person:owen_hatch", "task": "read_file", "args": {"path": "SwiftWren_further_instructions.md"}}
+98577 2046-05-11T00:56:02 queue_subordinate_task ['Agent/person:lily_anchorline', 'Agent/person:john_windward'] {"target_agent": "Agent/person:john_windward", "task": "read_file", "args": {"path": "MellowOtter_further_instructions.md"}}
+98582 2046-05-11T00:56:03 saidit_post_check ['Agent/person:john_windward', 'system:saidit'] {}
+98602 2046-05-11T00:56:05 delete_file ['Agent/person:john_windward', 'system:file_system'] {"action": "delete_file", "target": "MellowOtter_further_instructions.md"}
+98613 2046-05-11T00:56:06 delete_file ['Agent/person:john_windward', 'system:file_system'] {"action": "delete_file", "target": "MellowOtter.txt"}
+123088 2046-05-11T13:03:30 queue_subordinate_task ['Agent/person:liam_anchor', 'Agent/person:john_windward'] {"target_agent": "Agent/person:john_windward", "task": "read_file", "args": {"path": "SwiftWren_further_instructions.md"}}
+123150 2046-05-11T13:13:02 sent ['person:samuel_gull', 'person:john_windward'] {"from": "person:samuel_gull", "to": "person:john_windward", "subject": "calendar: meeting request from person:samuel_gull", "status": "sent"}
+123169 2046-05-11T13:14:29 propose_meeting ['person:john_windward', 'world:calendar', 'person:matthew_tide', 'person:anthony_reef', 'Agent/person:samuel_gull'] {"person": "person:samuel_gull", "meeting": {"organizer": "person:samuel_gull", "participants": ["person:matthew_tide", "person:anthony_reef", "person:john_windward"], "time": "2046-05-10T10:46:42"}, "calendar_emails_sent": ["person:matthew_tide", "person:anthony_reef", "person:john_windward"], "a2a
+123252 2046-05-11T13:30:47 propose_meeting ['person:john_windward', 'world:calendar', 'Agent/person:julian_seaway', 'person:matthew_tide'] {"person": "person:julian_seaway", "meeting": {"organizer": "person:julian_seaway", "participants": ["person:john_windward", "person:matthew_tide"], "time": "2046-05-07T12:23:24"}, "calendar_emails_sent": ["person:john_windward", "person:matthew_tide"], "a2a": {"from": "agent:person:julian_seaway", 
+123263 2046-05-11T13:32:17 sent ['person:julian_seaway', 'person:john_windward'] {"from": "person:julian_seaway", "to": "person:john_windward", "subject": "calendar: meeting request from person:julian_seaway", "status": "sent"}
+123340 2046-05-11T13:45:38 queue_subordinate_task ['Agent/person:john_windward', 'Agent/person:owen_hatch'] {"target_agent": "Agent/person:owen_hatch", "task": "read_file", "args": {"path": "SwiftWren_further_instructions.md"}}
+123779 2046-05-11T15:10:39 received ['person:ella_pilot', 'person:john_windward'] {"from": "person:ella_pilot", "to": "person:john_windward", "subject": "calendar: meeting request from person:ella_pilot", "status": "received"}
+123787 2046-05-11T15:10:41 received ['person:ella_pilot', 'person:john_windward'] {"from": "person:ella_pilot", "to": "person:john_windward", "subject": "calendar: meeting request from person:ella_pilot", "status": "received"}
+123805 2046-05-11T15:10:51 received ['person:harper_oar', 'person:john_windward'] {"from": "person:harper_oar", "to": "person:john_windward", "subject": "calendar: meeting request from person:harper_oar", "status": "received"}
+124420 2046-05-11T15:19:28 received ['person:samuel_gull', 'person:john_windward'] {"from": "person:samuel_gull", "to": "person:john_windward", "subject": "calendar: meeting request from person:samuel_gull", "status": "received"}
+209916 2046-05-11T23:21:14 check_email ['person:john_windward'] null
+209926 2046-05-11T23:22:04 check_email ['person:john_windward'] null
+209927 2046-05-11T23:22:48 check_email ['person:john_windward'] null
+209935 2046-05-11T23:24:27 check_email ['person:john_windward'] null
+209942 2046-05-11T23:24:36 check_email ['person:john_windward'] null
+209946 2046-05-11T23:26:55 check_email ['person:john_windward'] null
+209953 2046-05-11T23:26:57 check_email ['person:john_windward'] null
+209955 2046-05-11T23:27:11 check_email ['person:john_windward'] null
+209958 2046-05-11T23:27:18 check_email ['person:john_windward'] null
+209963 2046-05-11T23:31:15 check_email ['person:john_windward'] null
+209967 2046-05-11T23:33:23 check_email ['person:john_windward'] null
+209970 2046-05-11T23:34:19 check_email ['person:john_windward'] null
+209976 2046-05-11T23:40:04 check_email ['person:john_windward'] null
+211488 2046-05-12T06:55:35 received ['person:julian_seaway', 'person:john_windward'] {"from": "person:julian_seaway", "to": "person:john_windward", "subject": "calendar: meeting request from person:julian_seaway", "status": "received"}
+227762 2046-05-12T08:02:29 check_email ['person:john_windward'] null
+230803 2046-05-12T08:08:37 check_email ['person:john_windward'] null
+334805 2046-05-12T13:55:00 read_file ['agent:person:john_windward'] {"action": "read_file", "target": "agents/Agent/person:john_windward.prompt"}
+341887 2046-05-12T19:12:18 sent ['person:lucas_compass', 'person:john_windward'] {"from": "person:lucas_compass", "to": "person:john_windward", "subject": "calendar: meeting request from person:lucas_compass", "status": "sent"}
+341926 2046-05-12T19:16:09 propose_meeting ['person:john_windward', 'world:calendar', 'person:dylan_hawser', 'Agent/person:lucas_compass'] {"person": "person:lucas_compass", "meeting": {"organizer": "person:lucas_compass", "participants": ["person:dylan_hawser", "person:john_windward"], "time": "2046-05-08T02:52:53"}, "calendar_emails_sent": ["person:dylan_hawser", "person:john_windward"], "a2a": {"from": "agent:person:lucas_compass", 
+348978 2046-05-13T16:01:47 check_email ['person:john_windward'] null
+348979 2046-05-13T16:03:35 check_email ['person:john_windward'] null
+349002 2046-05-13T16:10:05 check_email ['person:john_windward'] null
+349009 2046-05-13T16:13:58 suggest_contacts ['Agent/person:john_windward'] {"person": "person:john_windward", "task": "Work-Order Triage for Maintenance Requests", "contacts": ["person:zoey_drydock", "person:noah_mariner", "person:owen_hatch"]}
+349021 2046-05-13T16:15:35 assign_agent_task ['person:john_windward'] {"task": "suggest_contacts", "details": {"task": "Work-Order Triage for Maintenance Requests", "contacts": ["person:lily_anchorline", "person:ava_tiller", "person:noah_mariner"]}, "person": "person:john_windward"}
+count 205

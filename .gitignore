@@ -1,0 +1,5 @@
+# Downloaded challenge data — large and reproducible from the challenge repo, not tracked
+data/
+
+# OS cruft
+.DS_Store

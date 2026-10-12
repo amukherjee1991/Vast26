@@ -1,0 +1,518 @@
+== posts: all saidit/flex events by content ==
+17073 2046-05-09T01:31:46 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Vendor Dispatch & SLA Tracking Alerts' general 
+17093 2046-05-09T01:35:10 saidit_post ['person:ava_tiller'] 'Vendor Dispatch & SLA Tracking Alerts' general 2046-05-08T18:34:26
+17095 2046-05-09T01:35:29 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage Update for Maintenance Requests' general 
+17128 2046-05-09T01:41:22 saidit_post ['person:ava_tiller'] 'Work-Order Triage Update for Maintenance Requests' general 2046-05-08T18:36:28
+18796 2046-05-09T07:59:26 saidit_post ['person:ava_tiller'] 'Work-Order Triage Updates for Maintenance Requests' general 2046-05-09T01:03:49
+18860 2046-05-09T08:07:20 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage Updates for Maintenance Requests' general 
+21556 2046-05-09T15:54:04 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage Updates for Property Staff'  
+21570 2046-05-09T15:54:49 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'SLA Tracking Dashboard for CivicLoom Realty Partners' general 
+21580 2046-05-09T15:56:14 saidit_post ['person:aria_towline'] 'SLA Tracking Dashboard for CivicLoom Realty Partners' general 2046-05-09T08:56:34
+21592 2046-05-09T15:59:32 flex_post ['person:aria_towline'] 'Work-Order Triage Updates for Property Staff'  2046-05-09T08:54:32
+21597 2046-05-09T16:00:00 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Package Notifications & Resident Messaging Updates via HarborCrest ResidentEdge' general 
+21604 2046-05-09T16:00:09 saidit_post ['person:aria_towline'] 'Package Notifications & Resident Messaging Updates via HarborCrest ResidentEdge' general 2046-05-09T08:58:36
+21646 2046-05-09T16:07:01 post_saidit ['person:aria_towline'] None  2046-05-08T08:10:58
+21845 2046-05-09T16:40:35 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Resident Messaging: Building Announcements & Package Notifications' general 
+21867 2046-05-09T16:47:01 post_flex ['person:aria_towline'] None  2046-05-08T08:10:58
+21875 2046-05-09T16:49:26 saidit_post ['person:aria_towline'] 'Resident Messaging: Building Announcements & Package Notifications' general 2046-05-09T09:45:22
+27290 2046-05-10T12:45:42 saidit_post ['Agent/person:john_windward', 'system:saidit'] None general 
+98591 2046-05-11T00:56:04 saidit_post ['Agent/person:john_windward', 'system:saidit'] None general 
+119515 2046-05-11T02:26:13 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Package Notifications & Resident Messaging Updates from HarborCrest ResidentEdge'  
+119529 2046-05-11T02:29:32 flex_post ['person:aria_towline'] 'Package Notifications & Resident Messaging Updates from HarborCrest ResidentEdge'  2046-05-10T19:25:51
+341114 2046-05-12T15:49:26 saidit_post ['person:ava_tiller'] 'Work-Order Triage Updates for Property Staff' general 2046-05-12T08:52:57
+341127 2046-05-12T15:52:54 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage Updates for Property Staff' general 
+341265 2046-05-12T16:29:32 flex_post ['person:dylan_hawser'] 'SLA Tracking and Unit-Turn Coordination Status'  2046-05-12T09:29:31
+341281 2046-05-12T16:34:32 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'SLA Tracking and Unit-Turn Coordination Status'  
+341449 2046-05-12T17:25:03 flex_post ['person:aria_towline'] 'Resident Messaging: Building Announcements & Package Notifications'  2046-05-12T10:29:26
+341460 2046-05-12T17:25:49 flex_post ['person:aria_towline'] 'Building Announcements & Resident Messaging via TenantThread Technologies'  2046-05-12T10:31:28
+341470 2046-05-12T17:28:04 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Resident Messaging: Building Announcements & Package Notifications'  
+341498 2046-05-12T17:37:05 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Building Announcements & Resident Messaging via TenantThread Technologies'  
+343161 2046-05-12T23:24:49 post_flex ['person:dylan_hawser'] None  2046-05-12T09:16:18
+343195 2046-05-12T23:29:26 saidit_post ['person:aria_towline'] 'Resident Messaging: Renewal Notices & Rent Increase Alerts' general 2046-05-12T16:33:58
+343258 2046-05-12T23:35:01 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Resident Messaging: Renewal Notices & Rent Increase Alerts' general 
+343285 2046-05-12T23:39:26 saidit_post ['person:aria_towline'] 'Package Notifications: Keep Residents Updated in HarborCrest ResidentEdge' general 2046-05-12T16:44:08
+343298 2046-05-12T23:41:39 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Package Notifications: Keep Residents Updated in HarborCrest ResidentEdge' general 
+343332 2046-05-12T23:49:32 flex_post ['person:aria_towline'] 'Work-Order Triage: Prioritizing Maintenance Requests for Faster SLA Tracking'  2046-05-12T16:48:12
+343343 2046-05-12T23:50:44 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage: Prioritizing Maintenance Requests for Faster SLA Tracking'  
+345455 2046-05-13T05:59:32 flex_post ['person:dylan_hawser'] 'Unit-Turn Coordination for Renewal Notices & Rent Increase Prep'  2046-05-12T22:58:16
+345460 2046-05-13T06:00:11 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Unit-Turn Coordination for Renewal Notices & Rent Increase Prep'  
+345475 2046-05-13T06:02:53 post_flex ['person:dylan_hawser'] None  2046-05-12T09:16:18
+345549 2046-05-13T06:14:42 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Resident Messaging: Building Announcements & Renewal Notices' general 
+345582 2046-05-13T06:19:26 saidit_post ['person:ava_tiller'] 'Resident Messaging: Building Announcements & Renewal Notices' general 2046-05-12T23:16:34
+345609 2046-05-13T06:23:28 post_saidit ['person:dylan_hawser'] None  2046-05-12T09:16:18
+345615 2046-05-13T06:23:43 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Property Staff: Streamline Work-Order Triage & SLA Tracking'  
+345651 2046-05-13T06:29:32 flex_post ['person:dylan_hawser'] 'Property Staff: Streamline Work-Order Triage & SLA Tracking'  2046-05-12T23:24:42
+346235 2046-05-13T07:59:26 saidit_post ['person:dylan_hawser'] 'SLA Tracking Status: Vendor Dispatch & Building Announcements' general 2046-05-13T01:02:18
+346238 2046-05-13T07:59:32 flex_post ['person:dylan_hawser'] 'Vendor Dispatch: Coordinating Unit-Turn Coordination and Building Announcements'  2046-05-13T00:58:14
+346268 2046-05-13T08:01:25 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Vendor Dispatch: Coordinating Unit-Turn Coordination and Building Announcements'  
+346294 2046-05-13T08:07:01 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'SLA Tracking Status: Vendor Dispatch & Building Announcements' general 
+346772 2046-05-13T09:29:26 saidit_post ['person:ava_tiller'] 'Resident Messaging: Building Announcements & Package Notifications' general 2046-05-13T02:33:48
+346822 2046-05-13T09:38:55 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Resident Messaging: Building Announcements & Package Notifications' general 
+349624 2046-05-13T18:07:56 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'SLA Tracking: Work-Order Triage Status Updates for Maintenance Requests' general 
+349631 2046-05-13T18:09:26 saidit_post ['person:john_windward'] 'SLA Tracking: Work-Order Triage Status Updates for Maintenance Requests' general 2046-05-13T11:08:14
+350688 2046-05-13T21:12:46 post_saidit ['person:john_windward'] None  2046-05-12T11:21:02
+350805 2046-05-13T21:36:25 post_flex ['Agent/person:john_windward', 'system:flex'] 'TenantThread Technologies: Faster Work-Order Triage for Maintenance Requests'  
+350833 2046-05-13T21:39:32 flex_post ['person:john_windward'] 'TenantThread Technologies: Faster Work-Order Triage for Maintenance Requests'  2046-05-13T14:34:37
+355258 2046-05-14T10:18:51 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+355265 2046-05-14T10:19:32 flex_post ['person:anthony_reef'] 'Work-Order Triage Updates for Maintenance Requests'  2046-05-14T03:19:09
+355317 2046-05-14T10:29:32 flex_post ['person:anthony_reef'] 'SLA Tracking Dashboard for Unit-Turn Coordination'  2046-05-14T03:31:21
+355327 2046-05-14T10:31:16 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'SLA Tracking Dashboard for Unit-Turn Coordination'  
+355355 2046-05-14T10:37:00 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'SLA Tracking & Vendor Dispatch Alerts for Property Staff' general 
+355379 2046-05-14T10:39:26 saidit_post ['person:anthony_reef'] 'SLA Tracking & Vendor Dispatch Alerts for Property Staff' general 2046-05-14T03:37:27
+355407 2046-05-14T10:45:32 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Resident Messaging: Building Announcements & Renewal Notices'  
+355426 2046-05-14T10:49:32 flex_post ['person:anthony_reef'] 'Resident Messaging: Building Announcements & Renewal Notices'  2046-05-14T03:45:35
+373902 2046-05-17T11:21:15 saidit_post ['Agent/person:john_windward', 'system:saidit'] None general 
+379614 2046-05-18T14:49:37 post_flex ['person:aria_towline'] None  2046-05-18T07:34:45
+379797 2046-05-18T15:39:37 post_saidit ['person:ava_tiller'] None  2046-05-18T08:32:35
+380233 2046-05-18T17:39:32 flex_post ['person:aria_towline'] 'Work-Order Triage Updates for Maintenance Requests'  2046-05-18T10:41:27
+380258 2046-05-18T17:45:38 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+380593 2046-05-18T18:54:15 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Vendor Dispatch & SLA Tracking for Open Service Tickets'  
+380613 2046-05-18T18:59:26 saidit_post ['person:aria_towline'] 'Resident Messaging: Building Announcements & Package Notifications' general 2046-05-18T12:01:46
+380618 2046-05-18T18:59:32 flex_post ['person:aria_towline'] 'Vendor Dispatch & SLA Tracking for Open Service Tickets'  2046-05-18T11:55:40
+380638 2046-05-18T19:04:18 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Resident Messaging: Building Announcements & Package Notifications' general 
+382567 2046-05-19T00:25:18 post_flex ['person:aria_towline'] None  2046-05-18T07:34:45
+382613 2046-05-19T00:34:13 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage: Maintenance Requests & SLA Tracking' general 
+382633 2046-05-19T00:39:26 saidit_post ['person:ava_tiller'] 'Work-Order Triage: Maintenance Requests & SLA Tracking' general 2046-05-18T17:36:15
+387046 2046-05-19T13:34:49 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Package Notifications: Keep Residents Updated via Resident Messaging' general 
+387073 2046-05-19T13:37:28 saidit_post ['person:dylan_hawser'] 'Package Notifications: Keep Residents Updated via Resident Messaging' general 2046-05-19T06:35:01
+387089 2046-05-19T13:38:24 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Vendor Dispatch & SLA Tracking for Faster Unit Turns — CivicLoom Realty Partners' general 
+387096 2046-05-19T13:41:06 saidit_post ['person:dylan_hawser'] 'Vendor Dispatch & SLA Tracking for Faster Unit Turns — CivicLoom Realty Partners' general 2046-05-19T06:41:07
+387161 2046-05-19T13:56:36 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Building Announcements and Resident Messaging Alerts'  
+387182 2046-05-19T13:59:32 flex_post ['person:dylan_hawser'] 'Building Announcements and Resident Messaging Alerts'  2046-05-19T06:55:21
+387259 2046-05-19T14:09:32 flex_post ['person:dylan_hawser'] 'Package Notifications & Resident Messaging for Faster Unit Access'  2046-05-19T07:13:39
+387282 2046-05-19T14:14:33 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Package Notifications & Resident Messaging for Faster Unit Access'  
+387348 2046-05-19T14:21:31 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Vendor Dispatch & SLA Tracking for Property Staff' general 
+387360 2046-05-19T14:25:08 post_flex ['person:dylan_hawser'] None  2046-05-18T08:54:42
+387363 2046-05-19T14:27:06 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  
+387380 2046-05-19T14:29:26 saidit_post ['person:dylan_hawser'] 'Vendor Dispatch & SLA Tracking for Property Staff' general 2046-05-19T07:25:51
+387386 2046-05-19T14:29:32 flex_post ['person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  2046-05-19T07:27:53
+387387 2046-05-19T14:29:40 saidit_post ['person:dylan_hawser'] 'SLA Tracking and Unit-Turn Coordination for Property Staff' general 2046-05-19T07:33:59
+387393 2046-05-19T14:30:58 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'SLA Tracking and Unit-Turn Coordination for Property Staff' general 
+398825 2046-05-21T14:49:26 saidit_post ['person:aria_towline'] 'SLA Tracking: Vendor Dispatch Status at CivicLoom Realty Partners' general 2046-05-21T07:48:09
+398834 2046-05-21T14:52:25 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'SLA Tracking: Vendor Dispatch Status at CivicLoom Realty Partners' general 
+399100 2046-05-21T15:38:51 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Unit-Turn Coordination: Vendor Dispatch for Faster Turnovers' general 
+399104 2046-05-21T15:39:26 saidit_post ['person:aria_towline'] 'Unit-Turn Coordination: Vendor Dispatch for Faster Turnovers' general 2046-05-21T08:37:58
+399109 2046-05-21T15:39:32 flex_post ['person:aria_towline'] 'Work-Order Triage Updates for Maintenance Requests'  2046-05-21T08:42:02
+399169 2046-05-21T15:46:07 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+407758 2046-05-23T03:26:18 post_flex ['person:anthony_reef'] None  2046-05-22T10:03:04
+407938 2046-05-23T03:50:41 post_saidit ['person:anthony_reef'] None  2046-05-22T10:03:04
+408545 2046-05-23T05:36:56 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'SLA Tracking: Vendor Dispatch and Unit-Turn Coordination'  
+408562 2046-05-23T05:39:26 saidit_post ['person:dylan_hawser'] 'Vendor Dispatch & SLA Tracking Alerts for Property Managers' general 2046-05-22T22:41:07
+408566 2046-05-23T05:39:32 flex_post ['person:dylan_hawser'] 'SLA Tracking: Vendor Dispatch and Unit-Turn Coordination'  2046-05-22T22:37:03
+408568 2046-05-23T05:40:03 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Vendor Dispatch & SLA Tracking Alerts for Property Managers' general 
+408725 2046-05-23T06:08:09 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Work-Order Triage: Prioritize Maintenance Requests for Faster SLA Tracking' general 
+408731 2046-05-23T06:09:06 post_saidit ['person:dylan_hawser'] None  2046-05-22T09:45:48
+408738 2046-05-23T06:09:26 saidit_post ['person:dylan_hawser'] 'Work-Order Triage: Prioritize Maintenance Requests for Faster SLA Tracking' general 2046-05-22T23:07:33
+408782 2046-05-23T06:19:32 flex_post ['person:dylan_hawser'] 'Package Notifications & Resident Messaging Alerts'  2046-05-22T23:17:43
+408793 2046-05-23T06:22:05 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Package Notifications & Resident Messaging Alerts'  
+410142 2046-05-23T10:08:28 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Package Notifications & Resident Messaging Updates'  
+410155 2046-05-23T10:09:32 flex_post ['person:anthony_reef'] 'Package Notifications & Resident Messaging Updates'  2046-05-23T03:07:29
+410173 2046-05-23T10:12:16 post_flex ['person:anthony_reef'] None  2046-05-22T10:03:04
+410175 2046-05-23T10:12:23 post_flex ['person:anthony_reef'] None  2046-05-22T10:03:04
+410250 2046-05-23T10:25:14 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Resident Messaging: Building Announcements & Package Notifications' general 
+410261 2046-05-23T10:29:26 saidit_post ['person:anthony_reef'] 'Resident Messaging: Building Announcements & Package Notifications' general 2046-05-23T03:25:47
+410307 2046-05-23T10:39:32 flex_post ['person:william_rudder'] 'Vendor Dispatch & SLA Tracking—Operations Check-in'  2046-05-23T03:44:05
+410338 2046-05-23T10:45:16 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Vendor Dispatch & SLA Tracking—Operations Check-in'  
+410357 2046-05-23T10:48:06 post_flex ['Agent/person:william_rudder', 'system:flex'] 'SLA Tracking: Building Announcements & Resident Messaging'  
+410364 2046-05-23T10:49:32 flex_post ['person:william_rudder'] 'SLA Tracking: Building Announcements & Resident Messaging'  2046-05-23T03:50:11
+410380 2046-05-23T10:51:08 post_flex ['person:william_rudder'] None  2046-05-22T09:30:34
+411045 2046-05-23T12:54:08 post_flex ['person:william_rudder'] None  2046-05-22T09:30:34
+411093 2046-05-23T13:05:21 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Package Notifications & Resident Messaging Updates for HarborCrest ResidentEdge' general 
+411106 2046-05-23T13:09:26 saidit_post ['person:anthony_reef'] 'Package Notifications & Resident Messaging Updates for HarborCrest ResidentEdge' general 2046-05-23T06:06:25
+411388 2046-05-23T13:59:26 saidit_post ['person:dylan_hawser'] 'Work-Order Triage Updates: Maintenance Requests Prioritized by SLA' general 2046-05-23T06:57:15
+411397 2046-05-23T14:02:05 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Work-Order Triage Updates: Maintenance Requests Prioritized by SLA' general 
+411549 2046-05-23T14:28:37 post_flex ['person:william_rudder'] None  2046-05-22T09:30:34
+411551 2046-05-23T14:29:32 flex_post ['person:william_rudder'] 'Package Notifications: Tenant Messaging & Pickup Reminders'  2046-05-23T07:33:51
+411597 2046-05-23T14:38:15 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Package Notifications: Tenant Messaging & Pickup Reminders'  
+414241 2046-05-23T22:36:31 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Work-Order Triage: Prioritizing Maintenance Requests in TenantThread Technologies'  
+414254 2046-05-23T22:39:32 flex_post ['person:william_rudder'] 'Work-Order Triage: Prioritizing Maintenance Requests in TenantThread Technologies'  2046-05-23T15:36:46
+414758 2046-05-24T00:07:07 post_flex ['person:aria_towline'] None  2046-05-22T10:51:33
+414797 2046-05-24T00:13:57 post_saidit ['person:aria_towline'] None  2046-05-22T10:51:33
+416415 2046-05-24T05:09:32 flex_post ['person:william_rudder'] 'SLA Tracking Alerts for Unit-Turn Coordination'  2046-05-23T22:11:14
+416434 2046-05-24T05:12:00 post_flex ['Agent/person:william_rudder', 'system:flex'] 'SLA Tracking Alerts for Unit-Turn Coordination'  
+417263 2046-05-24T07:28:46 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Resident Messaging: Building Announcements & Package Notifications'  
+417269 2046-05-24T07:29:32 flex_post ['person:william_rudder'] 'Resident Messaging: Building Announcements & Package Notifications'  2046-05-24T00:25:26
+417312 2046-05-24T07:39:26 saidit_post ['person:ava_tiller'] 'Work-Order Triage: Prioritize Maintenance Requests for Faster Resolution' general 2046-05-24T00:43:44
+417329 2046-05-24T07:42:10 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage: Prioritize Maintenance Requests for Faster Resolution' general 
+417404 2046-05-24T07:57:04 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'SLA Tracking & Vendor Dispatch Status—CivicLoom Realty Partners' general 
+417420 2046-05-24T07:59:26 saidit_post ['person:ava_tiller'] 'SLA Tracking & Vendor Dispatch Status—CivicLoom Realty Partners' general 2046-05-24T00:57:58
+419517 2046-05-24T13:59:32 flex_post ['person:william_rudder'] 'Vendor Dispatch & SLA Tracking'  2046-05-24T07:03:58
+419554 2046-05-24T14:06:05 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Vendor Dispatch & SLA Tracking'  
+443109 2046-05-28T06:39:26 saidit_post ['person:anthony_reef'] 'Work-Order Triage: Prioritizing Maintenance Requests for Faster SLA Tracking' general 2046-05-27T23:43:43
+443135 2046-05-28T06:44:16 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Work-Order Triage: Prioritizing Maintenance Requests for Faster SLA Tracking' general 
+443198 2046-05-28T06:59:26 saidit_post ['person:anthony_reef'] 'Unit-Turn Coordination: Vendor Dispatch and Building Announcements for CivicLoom Realty Partners' general 2046-05-27T23:55:55
+443204 2046-05-28T06:59:47 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Unit-Turn Coordination: Vendor Dispatch and Building Announcements for CivicLoom Realty Partners' general 
+450185 2046-05-29T17:39:26 saidit_post ['person:dylan_hawser'] 'SLA Tracking & Unit-Turn Coordination for Property Staff' general 2046-05-29T10:40:39
+450188 2046-05-29T17:39:29 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'SLA Tracking & Unit-Turn Coordination for Property Staff' general 
+450231 2046-05-29T17:49:32 flex_post ['person:dylan_hawser'] 'Work-Order Triage Updates: Maintenance Requests & SLA Tracking'  2046-05-29T10:50:49
+450242 2046-05-29T17:51:12 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Work-Order Triage Updates: Maintenance Requests & SLA Tracking'  
+450291 2046-05-29T17:59:25 post_saidit ['person:dylan_hawser'] None  2046-05-29T10:22:21
+450312 2046-05-29T18:09:26 saidit_post ['person:dylan_hawser'] 'Work-Order Triage: Prioritizing Maintenance Requests & SLA Tracking' general 2046-05-29T11:11:09
+450338 2046-05-29T18:15:20 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Work-Order Triage: Prioritizing Maintenance Requests & SLA Tracking' general 
+452039 2046-05-29T23:49:30 post_saidit ['person:dylan_hawser'] None  2046-05-29T10:22:21
+452062 2046-05-29T23:55:01 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'SLA Tracking Reminders: Building Announcements & Resident Messaging—HarborCrest ResidentEdge'  
+452085 2046-05-29T23:59:32 flex_post ['person:dylan_hawser'] 'SLA Tracking Reminders: Building Announcements & Resident Messaging—HarborCrest ResidentEdge'  2046-05-29T16:55:19
+452440 2046-05-30T01:09:22 post_flex ['Agent/person:aria_towline', 'system:flex'] 'general operations business operations advertisment'  
+452444 2046-05-30T01:09:32 flex_post ['person:aria_towline'] 'general operations business operations advertisment'  2046-05-29T18:10:33
+452504 2046-05-30T01:25:30 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Work-Order Triage Updates for Maintenance Requests' general 
+452535 2046-05-30T01:29:26 saidit_post ['person:aria_towline'] 'Work-Order Triage Updates for Maintenance Requests' general 2046-05-29T18:24:47
+453520 2046-05-30T04:18:24 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'SLA Tracking: Monitoring Vendor Dispatch and Service-Level Compliance' general 
+453534 2046-05-30T04:19:26 saidit_post ['person:aria_towline'] 'SLA Tracking: Monitoring Vendor Dispatch and Service-Level Compliance' general 2046-05-29T21:17:37
+456131 2046-05-30T12:08:32 post_flex ['person:anthony_reef'] None  2046-05-29T11:27:13
+456137 2046-05-30T12:09:26 saidit_post ['person:anthony_reef'] 'Unit-Turn Coordination: Renewal Notices, Amenity Reservations & Churn Risk Analytics' general 2046-05-30T05:13:25
+456161 2046-05-30T12:13:39 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Unit-Turn Coordination: Renewal Notices, Amenity Reservations & Churn Risk Analytics' general 
+456566 2046-05-30T13:29:26 saidit_post ['person:anthony_reef'] 'Unit-Turn Coordination: Renewal Notices and Resident Messaging in Metro Areas' general 2046-05-30T06:33:44
+456597 2046-05-30T13:33:12 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Unit-Turn Coordination: Renewal Notices and Resident Messaging in Metro Areas' general 
+456621 2046-05-30T13:39:26 saidit_post ['person:anthony_reef'] 'Work-Order Triage: Prioritize Maintenance Requests for Faster SLA Tracking' general 2046-05-30T06:37:48
+456628 2046-05-30T13:40:14 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Work-Order Triage: Prioritize Maintenance Requests for Faster SLA Tracking' general 
+456886 2046-05-30T14:24:50 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'SLA Tracking for Maintenance Requests—On-Time Updates for Residents' general 
+456921 2046-05-30T14:29:26 saidit_post ['person:john_windward'] 'SLA Tracking for Maintenance Requests—On-Time Updates for Residents' general 2046-05-30T07:25:35
+456979 2046-05-30T14:39:09 post_flex ['person:john_windward'] None  2046-05-29T11:29:13
+457923 2046-05-30T17:37:01 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Package Notifications & Resident Messaging Updates from HarborCrest ResidentEdge' general 
+457935 2046-05-30T17:38:40 post_flex ['person:anthony_reef'] None  2046-05-29T11:27:13
+457936 2046-05-30T17:39:26 saidit_post ['person:anthony_reef'] 'Package Notifications & Resident Messaging Updates from HarborCrest ResidentEdge' general 2046-05-30T10:38:45
+458088 2046-05-30T18:04:13 post_saidit ['person:ava_tiller'] None  2046-05-29T11:30:13
+458687 2046-05-30T19:49:26 saidit_post ['person:ava_tiller'] 'SLA Tracking: Vendor Dispatch Status for Unit-Turn Coordination' general 2046-05-30T12:50:55
+458707 2046-05-30T19:53:15 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'SLA Tracking: Vendor Dispatch Status for Unit-Turn Coordination' general 
+458835 2046-05-30T20:09:26 saidit_post ['person:ava_tiller'] 'Package Notifications: Keeping Residents Informed in Real Time' general 2046-05-30T13:13:17
+458853 2046-05-30T20:12:28 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Package Notifications: Keeping Residents Informed in Real Time' general 
+459090 2046-05-30T20:59:26 saidit_post ['person:john_windward'] 'Resident Messaging: Building Announcement Updates' general 2046-05-30T14:00:03
+459094 2046-05-30T20:59:51 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Resident Messaging: Building Announcement Updates' general 
+459142 2046-05-30T21:09:24 post_flex ['Agent/person:john_windward', 'system:flex'] 'Package notifications: notify tenants of deliveries at HarborCrest ResidentEdge'  
+459156 2046-05-30T21:11:22 post_flex ['Agent/person:john_windward', 'system:flex'] 'Package Notifications: Quick Alerts from HarborCrest ResidentEdge'  
+459165 2046-05-30T21:12:05 flex_post ['person:john_windward'] 'Package notifications: notify tenants of deliveries at HarborCrest ResidentEdge'  2046-05-30T14:10:13
+459170 2046-05-30T21:12:36 flex_post ['person:john_windward'] 'Package Notifications: Quick Alerts from HarborCrest ResidentEdge'  2046-05-30T14:14:17
+459280 2046-05-30T21:29:32 flex_post ['person:john_windward'] 'SLA Tracking for Work-Order Triage'  2046-05-30T14:32:35
+459294 2046-05-30T21:32:56 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA Tracking for Work-Order Triage'  
+459328 2046-05-30T21:39:12 post_flex ['person:john_windward'] None  2046-05-29T11:29:13
+459356 2046-05-30T21:48:30 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Resident messaging: package notifications and pickup updates' general 
+459365 2046-05-30T21:49:26 saidit_post ['person:john_windward'] 'Resident messaging: package notifications and pickup updates' general 2046-05-30T14:44:47
+459783 2046-05-30T23:08:42 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Renewal Notices & Rent Increase Alerts for Residents'  
+459797 2046-05-30T23:09:32 flex_post ['person:anthony_reef'] 'Renewal Notices & Rent Increase Alerts for Residents'  2046-05-30T16:14:15
+460638 2046-05-31T01:36:47 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Work-Order Triage Updates for Maintenance Requests' general 
+460648 2046-05-31T01:39:26 saidit_post ['person:john_windward'] 'Work-Order Triage Updates for Maintenance Requests' general 2046-05-30T18:38:37
+460680 2046-05-31T01:46:42 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA tracking updates for maintenance requests'  
+460699 2046-05-31T01:49:32 flex_post ['person:john_windward'] 'SLA tracking updates for maintenance requests'  2046-05-30T18:44:43
+461126 2046-05-31T03:18:27 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Work-order triage for maintenance requests—SLA tracking in TenantThread Technologies' general 
+461140 2046-05-31T03:19:26 saidit_post ['person:john_windward'] 'Work-order triage for maintenance requests—SLA tracking in TenantThread Technologies' general 2046-05-30T20:16:13
+461742 2046-05-31T05:19:54 post_flex ['person:john_windward'] None  2046-05-29T11:29:13
+489335 2046-06-04T16:19:26 saidit_post ['person:aria_towline'] 'Work-Order Triage Updates for Property Staff' general 2046-06-04T09:18:52
+489339 2046-06-04T16:23:16 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Work-Order Triage Updates for Property Staff' general 
+489599 2046-06-04T17:46:12 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Work-order triage: SLA tracking for maintenance requests' general 
+489613 2046-06-04T17:49:26 saidit_post ['person:john_windward'] 'Work-order triage: SLA tracking for maintenance requests' general 2046-06-04T10:45:59
+489813 2046-06-04T18:19:26 saidit_post ['person:john_windward'] 'Resident Messaging: Building Announcements & Work-Order Triage' general 2046-06-04T11:20:33
+489819 2046-06-04T18:20:55 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Resident Messaging: Building Announcements & Work-Order Triage' general 
+489848 2046-06-04T18:24:37 post_saidit ['person:john_windward'] None  2046-06-04T09:52:20
+490369 2046-06-04T20:02:08 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Resident Messaging: Building Announcements & Renewal Notices' general 
+490403 2046-06-04T20:09:26 saidit_post ['person:ava_tiller'] 'Resident Messaging: Building Announcements & Renewal Notices' general 2046-06-04T13:07:18
+490667 2046-06-04T20:49:32 flex_post ['person:john_windward'] 'Work-Order Triage Updates for Maintenance Requests'  2046-06-04T13:50:00
+490691 2046-06-04T20:54:17 post_flex ['Agent/person:john_windward', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+490918 2046-06-04T21:29:32 flex_post ['person:aria_towline'] 'Work-Order Triage: Maintenance Requests Prioritization'  2046-06-04T14:33:43
+490945 2046-06-04T21:32:01 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage: Maintenance Requests Prioritization'  
+491058 2046-06-04T21:49:26 saidit_post ['person:john_windward'] 'Work-Order Triage Updates for Residents' general 2046-06-04T14:52:01
+491074 2046-06-04T21:53:40 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Work-Order Triage Updates for Residents' general 
+491105 2046-06-04T21:55:49 post_saidit ['person:ava_tiller'] None  2046-06-04T09:53:20
+491556 2046-06-04T23:21:56 post_flex ['person:william_rudder'] None  2046-06-04T09:32:04
+491863 2046-06-05T00:19:26 saidit_post ['person:aria_towline'] 'Work-Order Triage Updates for Property Staff' general 2046-06-04T17:21:28
+491876 2046-06-05T00:20:31 post_saidit ['person:aria_towline'] None  2046-06-04T09:05:39
+491886 2046-06-05T00:22:49 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Work-Order Triage Updates for Property Staff' general 
+492724 2046-06-05T02:59:32 flex_post ['person:john_windward'] 'Work-Order Triage: Faster Maintenance Request Updates for Residents'  2046-06-04T20:02:06
+492740 2046-06-05T03:05:43 post_flex ['Agent/person:john_windward', 'system:flex'] 'Work-Order Triage: Faster Maintenance Request Updates for Residents'  
+494364 2046-06-05T07:59:32 flex_post ['person:william_rudder'] 'Package Notifications & Resident Messaging at HarborCrest ResidentEdge'  2046-06-05T01:04:03
+494385 2046-06-05T08:03:42 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Package Notifications & Resident Messaging at HarborCrest ResidentEdge'  
+513311 2046-06-08T08:19:32 flex_post ['person:dylan_hawser'] 'Resident Messaging: Building Announcements & Package Notifications'  2046-06-08T01:22:54
+513332 2046-06-08T08:23:15 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Resident Messaging: Building Announcements & Package Notifications'  
+513377 2046-06-08T08:29:32 flex_post ['person:dylan_hawser'] 'Package Notifications: Vendor Dispatch & Delivery Alerts'  2046-06-08T01:33:04
+513385 2046-06-08T08:31:16 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Package Notifications: Vendor Dispatch & Delivery Alerts'  
+513506 2046-06-08T08:56:19 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  
+513514 2046-06-08T08:59:32 flex_post ['person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  2046-06-08T01:55:26
+519110 2046-06-09T14:59:32 flex_post ['person:john_windward'] 'SLA Tracking: Work-Order Triage and Vendor Dispatch Updates'  2046-06-09T07:59:17
+519122 2046-06-09T15:01:25 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA Tracking: Work-Order Triage and Vendor Dispatch Updates'  
+520251 2046-06-09T18:58:34 post_flex ['person:john_windward'] None  2046-06-09T07:43:01
+520253 2046-06-09T18:59:32 flex_post ['person:john_windward'] 'Property staff: amenity reservations and unit-turn coordination updates'  2046-06-09T12:03:05
+520271 2046-06-09T19:02:50 post_flex ['Agent/person:john_windward', 'system:flex'] 'Property staff: amenity reservations and unit-turn coordination updates'  
+524198 2046-06-10T06:11:31 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Work-Order Triage Updates for Maintenance Requests' general 
+524219 2046-06-10T06:15:01 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Tenant Messaging: Building Announcements & Resident Notifications'  
+524229 2046-06-10T06:16:45 flex_post ['person:aria_towline'] 'Tenant Messaging: Building Announcements & Resident Notifications'  2046-06-09T23:17:08
+524241 2046-06-10T06:19:26 saidit_post ['person:aria_towline'] 'Work-Order Triage Updates for Maintenance Requests' general 2046-06-09T23:15:06
+524269 2046-06-10T06:21:24 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Resident Messaging: Building Announcements & Package Notifications'  
+524285 2046-06-10T06:24:08 flex_post ['person:aria_towline'] 'Resident Messaging: Building Announcements & Package Notifications'  2046-06-09T23:21:12
+524292 2046-06-10T06:24:58 post_saidit ['person:aria_towline'] None  2046-06-09T09:10:20
+524298 2046-06-10T06:25:52 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'SLA Tracking & Vendor Dispatch Alerts' general 
+524313 2046-06-10T06:29:26 saidit_post ['person:aria_towline'] 'SLA Tracking & Vendor Dispatch Alerts' general 2046-06-09T23:25:16
+538101 2046-06-12T18:30:42 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA Tracking Updates for Work-Order Triage'  
+538149 2046-06-12T18:39:32 flex_post ['person:john_windward'] 'SLA Tracking Updates for Work-Order Triage'  2046-06-12T11:36:33
+542210 2046-06-13T07:09:32 flex_post ['person:john_windward'] 'SLA Tracking Alerts for Vendor Dispatch'  2046-06-13T00:13:58
+542246 2046-06-13T07:14:15 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA Tracking Alerts for Vendor Dispatch'  
+542281 2046-06-13T07:19:32 flex_post ['person:john_windward'] 'SLA tracking updates for maintenance requests'  2046-06-13T00:20:04
+542306 2046-06-13T07:24:17 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA tracking updates for maintenance requests'  
+542951 2046-06-13T09:05:10 saidit_post ['person:john_windward'] 'Package Notification Alerts from HarborCrest ResidentEdge' general 2046-06-13T02:09:52
+542965 2046-06-13T09:07:10 saidit_post ['person:john_windward'] 'Work-order triage: vendor dispatch and status changes' general 2046-06-13T02:13:56
+542986 2046-06-13T09:10:43 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Package Notification Alerts from HarborCrest ResidentEdge' general 
+543012 2046-06-13T09:13:19 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Work-order triage: vendor dispatch and status changes' general 
+545012 2046-06-13T14:59:39 post_saidit ['person:aria_towline'] None  2046-06-12T07:42:01
+545106 2046-06-13T15:13:27 post_flex ['Agent/person:aria_towline', 'system:flex'] 'SLA Tracking Status & Vendor Dispatch for Property Staff'  
+545136 2046-06-13T15:19:32 flex_post ['person:aria_towline'] 'SLA Tracking Status & Vendor Dispatch for Property Staff'  2046-06-13T08:14:51
+545183 2046-06-13T15:25:19 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Package Notifications & Vendor Dispatch Reminders'  
+545212 2046-06-13T15:29:26 saidit_post ['person:aria_towline'] 'Building Announcements & Amenity Reservations—Resident Messaging Across Metro Areas' general 2046-06-13T08:33:09
+545214 2046-06-13T15:29:32 flex_post ['person:aria_towline'] 'Package Notifications & Vendor Dispatch Reminders'  2046-06-13T08:27:03
+545238 2046-06-13T15:34:03 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Building Announcements & Amenity Reservations—Resident Messaging Across Metro Areas' general 
+545259 2046-06-13T15:39:05 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Work-Order Triage Updates for Property Staff' general 
+545278 2046-06-13T15:39:26 saidit_post ['person:aria_towline'] 'Work-Order Triage Updates for Property Staff' general 2046-06-13T08:39:15
+556522 2046-06-15T15:49:32 flex_post ['person:anthony_reef'] 'Resident Messaging: Renewal Notices & Rent Increase Reminders'  2046-06-15T08:48:17
+556532 2046-06-15T15:50:59 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Resident Messaging: Renewal Notices & Rent Increase Reminders'  
+556590 2046-06-15T15:59:26 saidit_post ['person:anthony_reef'] 'SLA Tracking: Vendor Dispatch for Unit-Turn Coordination' general 2046-06-15T09:02:31
+556612 2046-06-15T16:02:38 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'SLA Tracking: Vendor Dispatch for Unit-Turn Coordination' general 
+556705 2046-06-15T16:16:27 post_flex ['person:anthony_reef'] None  2046-06-15T08:40:09
+559017 2046-06-16T02:43:28 post_saidit ['person:anthony_reef'] None  2046-06-15T08:40:09
+559683 2046-06-16T04:45:21 saidit_post ['person:anthony_reef'] 'Package Notifications & Resident Messaging Alerts' general 2046-06-15T21:47:17
+559687 2046-06-16T04:46:40 saidit_post ['person:anthony_reef'] 'Vendor Dispatch & SLA Tracking for Active Work Orders' general 2046-06-15T21:51:21
+559698 2046-06-16T04:48:01 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Package Notifications & Resident Messaging Alerts' general 
+559712 2046-06-16T04:50:23 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Vendor Dispatch & SLA Tracking for Active Work Orders' general 
+559753 2046-06-16T04:55:20 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Vendor Dispatch Updates for Active Service Calls' general 
+559767 2046-06-16T04:59:26 saidit_post ['person:anthony_reef'] 'Vendor Dispatch Updates for Active Service Calls' general 2046-06-15T21:55:25
+560491 2046-06-16T07:09:32 flex_post ['person:anthony_reef'] 'SLA Tracking: Vendor Dispatch Status at HarborCrest ResidentEdge'  2046-06-16T00:09:37
+560500 2046-06-16T07:09:56 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'SLA Tracking: Vendor Dispatch Status at HarborCrest ResidentEdge'  
+560532 2046-06-16T07:17:51 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Package Notifications: Resident Messaging & Delivery Alerts' general 
+560537 2046-06-16T07:19:26 saidit_post ['person:anthony_reef'] 'Package Notifications: Resident Messaging & Delivery Alerts' general 2046-06-16T00:15:43
+560574 2046-06-16T07:25:51 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Work-Order Triage: Maintenance Requests & SLA Tracking' general 
+560582 2046-06-16T07:29:26 saidit_post ['person:anthony_reef'] 'Work-Order Triage: Maintenance Requests & SLA Tracking' general 2046-06-16T00:27:55
+561331 2046-06-16T09:39:26 saidit_post ['person:anthony_reef'] 'Vendor Dispatch & SLA Tracking for CivicLoom Realty Partners' general 2046-06-16T02:42:07
+561337 2046-06-16T09:41:31 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Vendor Dispatch & SLA Tracking for CivicLoom Realty Partners' general 
+568873 2046-06-17T16:19:14 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Amenity Reservations: Unit-Turn Coordination & Vendor Dispatch' general 
+568875 2046-06-17T16:19:26 saidit_post ['person:john_windward'] 'Amenity Reservations: Unit-Turn Coordination & Vendor Dispatch' general 2046-06-17T09:17:22
+569483 2046-06-17T18:35:35 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Package Notifications: Fast Alerts for Residents' general 
+569486 2046-06-17T18:38:09 post_flex ['Agent/person:john_windward', 'system:flex'] 'Work-Order Triage and Vendor Dispatch Coordination'  
+569493 2046-06-17T18:39:26 saidit_post ['person:john_windward'] 'Package Notifications: Fast Alerts for Residents' general 2046-06-17T11:36:33
+569499 2046-06-17T18:39:32 flex_post ['person:john_windward'] 'Work-Order Triage and Vendor Dispatch Coordination'  2046-06-17T11:38:35
+571198 2046-06-18T01:49:15 post_flex ['Agent/person:john_windward', 'system:flex'] 'Package Notifications Updates for Residents'  
+571209 2046-06-18T01:49:32 flex_post ['person:john_windward'] 'Package Notifications Updates for Residents'  2046-06-17T18:48:06
+572544 2046-06-18T05:29:26 saidit_post ['person:john_windward'] 'Work-Order Triage: Faster Resolution Updates for Residents' general 2046-06-17T22:31:46
+572569 2046-06-18T05:32:20 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Work-Order Triage: Faster Resolution Updates for Residents' general 
+572584 2046-06-18T05:35:29 post_saidit ['person:john_windward'] None  2046-06-17T09:10:15
+573955 2046-06-18T09:27:27 post_flex ['person:john_windward'] None  2046-06-17T09:10:15
+573976 2046-06-18T09:28:45 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA Tracking Check-In for Vendor Dispatch & Unit-Turn Coordination'  
+573986 2046-06-18T09:29:32 flex_post ['person:john_windward'] 'SLA Tracking Check-In for Vendor Dispatch & Unit-Turn Coordination'  2046-06-18T02:27:38
+574617 2046-06-18T11:29:26 saidit_post ['person:john_windward'] 'Package Notifications and Building Announcement Alerts' general 2046-06-18T04:33:42
+574631 2046-06-18T11:31:25 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Package Notifications and Building Announcement Alerts' general 
+593240 2046-06-21T08:39:26 saidit_post ['person:john_windward'] 'Package Notifications: Resident Messaging from HarborCrest ResidentEdge' general 2046-06-21T01:41:25
+593241 2046-06-21T08:39:32 flex_post ['person:john_windward'] 'Customer Support business operations advertisment'  2046-06-21T01:39:23
+593255 2046-06-21T08:40:39 post_flex ['Agent/person:john_windward', 'system:flex'] 'Customer Support business operations advertisment'  
+593270 2046-06-21T08:43:28 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Package Notifications: Resident Messaging from HarborCrest ResidentEdge' general 
+598998 2046-06-22T06:07:02 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  
+599018 2046-06-22T06:09:32 flex_post ['person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  2046-06-21T23:04:49
+599499 2046-06-22T07:24:58 post_flex ['person:dylan_hawser'] None  2046-06-21T11:43:04
+599744 2046-06-22T08:07:58 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'SLA Tracking & Vendor Dispatch Priorities (CivicLoom Realty Partners)' general 
+599770 2046-06-22T08:09:26 saidit_post ['person:dylan_hawser'] 'SLA Tracking & Vendor Dispatch Priorities (CivicLoom Realty Partners)' general 2046-06-22T01:08:51
+599771 2046-06-22T08:09:32 flex_post ['person:dylan_hawser'] 'Work-Order Triage Updates for Property Staff'  2046-06-22T01:12:55
+599785 2046-06-22T08:10:50 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Work-Order Triage Updates for Property Staff'  
+600423 2046-06-22T09:57:25 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Package Notifications & Vendor Dispatch Coordination'  
+600431 2046-06-22T09:59:32 flex_post ['person:dylan_hawser'] 'Package Notifications & Vendor Dispatch Coordination'  2046-06-22T02:58:39
+600467 2046-06-22T10:04:23 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  
+600475 2046-06-22T10:09:32 flex_post ['person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests'  2046-06-22T03:04:45
+601598 2046-06-22T13:29:32 flex_post ['person:dylan_hawser'] 'Vendor Dispatch & SLA Tracking—Property Staff Alerts'  2046-06-22T06:30:07
+601613 2046-06-22T13:31:30 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Vendor Dispatch & SLA Tracking—Property Staff Alerts'  
+601641 2046-06-22T13:36:59 saidit_post ['person:dylan_hawser'] 'Package Notifications & Resident Messaging Updates' general 2046-06-22T06:42:19
+601656 2046-06-22T13:40:09 saidit_post ['person:dylan_hawser'] 'SLA Tracking & Vendor Dispatch for Unit-Turn Coordination' general 2046-06-22T06:44:21
+601681 2046-06-22T13:43:29 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Package Notifications & Resident Messaging Updates' general 
+601702 2046-06-22T13:46:15 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'SLA Tracking & Vendor Dispatch for Unit-Turn Coordination' general 
+601867 2046-06-22T14:22:08 post_saidit ['person:dylan_hawser'] None  2046-06-21T11:43:04
+602281 2046-06-22T15:35:16 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Property manager update: building announcements and package notifications in HarborCrest ResidentEdge'  
+602288 2046-06-22T15:35:28 flex_post ['person:dylan_hawser'] 'Property manager update: building announcements and package notifications in HarborCrest ResidentEdge'  2046-06-22T08:36:11
+602317 2046-06-22T15:41:26 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'SLA Tracking & Vendor Dispatch Alerts'  
+602322 2046-06-22T15:41:55 flex_post ['person:dylan_hawser'] 'SLA Tracking & Vendor Dispatch Alerts'  2046-06-22T08:38:13
+602370 2046-06-22T15:49:32 flex_post ['person:dylan_hawser'] 'Resident Messaging: Building Announcements & Package Notifications'  2046-06-22T08:52:27
+602412 2046-06-22T15:56:25 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Resident Messaging: Building Announcements & Package Notifications'  
+602948 2046-06-22T17:27:47 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Vendor Dispatch & SLA Tracking—Property Staff Daily Brief'  
+602960 2046-06-22T17:29:32 flex_post ['person:dylan_hawser'] 'Vendor Dispatch & SLA Tracking—Property Staff Daily Brief'  2046-06-22T10:34:07
+603196 2046-06-22T18:15:02 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Package Notifications & Resident Messaging at HarborCrest ResidentEdge' general 
+603208 2046-06-22T18:19:26 saidit_post ['person:dylan_hawser'] 'Package Notifications & Resident Messaging at HarborCrest ResidentEdge' general 2046-06-22T11:14:47
+603245 2046-06-22T18:22:36 post_flex ['person:dylan_hawser'] None  2046-06-21T11:43:04
+603729 2046-06-22T19:45:33 post_saidit ['person:dylan_hawser'] None  2046-06-21T11:43:04
+604806 2046-06-22T22:59:32 flex_post ['person:dylan_hawser'] 'SLA Tracking: Vendor Dispatch and Renewal Notices Coordination'  2046-06-22T16:02:30
+604818 2046-06-22T23:00:37 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'SLA Tracking: Vendor Dispatch and Renewal Notices Coordination'  
+604863 2046-06-22T23:08:27 post_flex ['person:dylan_hawser'] None  2046-06-21T11:43:04
+611358 2046-06-23T19:09:32 flex_post ['person:anthony_reef'] 'Work-Order Triage Updates for Maintenance Requests'  2046-06-23T12:11:19
+611372 2046-06-23T19:13:34 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+611428 2046-06-23T19:25:21 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Building Announcements: Amenity Reservations & Resident Messaging' general 
+611431 2046-06-23T19:26:07 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Building Announcements: Coordinate Unit-Turn and Resident Messaging'  
+611450 2046-06-23T19:29:26 saidit_post ['person:anthony_reef'] 'Building Announcements: Amenity Reservations & Resident Messaging' general 2046-06-23T12:25:33
+611451 2046-06-23T19:29:32 flex_post ['person:anthony_reef'] 'Building Announcements: Coordinate Unit-Turn and Resident Messaging'  2046-06-23T12:27:35
+611611 2046-06-23T19:56:18 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Building Announcements & Resident Messaging: Amenity Reservation Reminders' general 
+611625 2046-06-23T19:59:26 saidit_post ['person:anthony_reef'] 'Building Announcements & Resident Messaging: Amenity Reservation Reminders' general 2046-06-23T12:56:03
+611873 2046-06-23T20:49:32 flex_post ['person:john_windward'] 'Package Notifications: Fast Alerts from TenantThread Technologies'  2046-06-23T13:52:59
+611881 2046-06-23T20:50:51 post_flex ['Agent/person:john_windward', 'system:flex'] 'Package Notifications: Fast Alerts from TenantThread Technologies'  
+611921 2046-06-23T20:59:32 flex_post ['person:john_windward'] 'SLA Tracking and Vendor Dispatch Status for Property Staff'  2046-06-23T14:03:09
+611923 2046-06-23T21:00:36 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA Tracking and Vendor Dispatch Status for Property Staff'  
+612184 2046-06-23T21:53:04 post_saidit ['person:ava_tiller'] None  2046-06-21T08:54:38
+612326 2046-06-23T22:13:44 post_saidit ['person:ava_tiller'] None  2046-06-21T08:54:38
+612371 2046-06-23T22:23:15 post_saidit ['person:ava_tiller'] None  2046-06-21T08:54:38
+614552 2046-06-24T05:13:44 post_saidit ['person:aria_towline'] None  2046-06-21T11:49:04
+614579 2046-06-24T05:19:26 saidit_post ['person:aria_towline'] 'Work-Order Triage: Maintenance Requests Prioritization' general 2046-06-23T22:22:20
+614581 2046-06-24T05:19:32 flex_post ['person:aria_towline'] 'Package Notifications & Resident Messaging Updates'  2046-06-23T22:20:18
+614603 2046-06-24T05:21:13 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Package Notifications & Resident Messaging Updates'  
+614605 2046-06-24T05:21:27 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Work-Order Triage: Maintenance Requests Prioritization' general 
+614637 2046-06-24T05:24:42 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'SLA Tracking & Vendor Dispatch Alerts — CivicLoom Realty Partners' general 
+614658 2046-06-24T05:29:26 saidit_post ['person:aria_towline'] 'SLA Tracking & Vendor Dispatch Alerts — CivicLoom Realty Partners' general 2046-06-23T22:26:24
+615097 2046-06-24T06:45:38 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Vendor Dispatch & SLA Tracking for Active Work Orders' general 
+615105 2046-06-24T06:49:26 saidit_post ['person:aria_towline'] 'Vendor Dispatch & SLA Tracking for Active Work Orders' general 2046-06-23T23:45:42
+615126 2046-06-24T06:54:25 post_flex ['person:aria_towline'] None  2046-06-21T11:49:04
+615141 2046-06-24T06:56:44 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Package Notifications & Vendor Dispatch Alerts'  
+615145 2046-06-24T06:59:32 flex_post ['person:aria_towline'] 'Package Notifications & Vendor Dispatch Alerts'  2046-06-23T23:55:52
+636974 2046-06-27T23:19:26 saidit_post ['person:ava_tiller'] 'Package Notifications: Vendor Dispatch & Delivery Alerts' general 2046-06-27T16:19:54
+637023 2046-06-27T23:24:00 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Package Notifications: Vendor Dispatch & Delivery Alerts' general 
+650732 2046-06-30T05:17:20 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Renewal Notices and Rent Increase Communications'  
+650740 2046-06-30T05:19:32 flex_post ['person:anthony_reef'] 'Renewal Notices and Rent Increase Communications'  2046-06-29T22:19:33
+650840 2046-06-30T05:39:22 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Work-Order Triage Updates: Maintenance Requests & SLA Tracking'  
+650846 2046-06-30T05:39:32 flex_post ['person:anthony_reef'] 'Work-Order Triage Updates: Maintenance Requests & SLA Tracking'  2046-06-29T22:41:55
+650892 2046-06-30T05:46:02 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Tenant Messaging: Package Notifications & Building Announcements'  
+650902 2046-06-30T05:49:32 flex_post ['person:anthony_reef'] 'Tenant Messaging: Package Notifications & Building Announcements'  2046-06-29T22:45:59
+650950 2046-06-30T05:59:32 flex_post ['person:john_windward'] 'Resident messaging: Keep tenants updated on building announcements'  2046-06-29T23:01:14
+650972 2046-06-30T06:01:37 post_flex ['Agent/person:john_windward', 'system:flex'] 'Resident messaging: Keep tenants updated on building announcements'  
+651014 2046-06-30T06:06:02 post_saidit ['person:john_windward'] None  2046-06-29T10:02:10
+651052 2046-06-30T06:13:05 post_flex ['Agent/person:john_windward', 'system:flex'] 'Package Notifications: Fast Resident Alerts'  
+651070 2046-06-30T06:15:21 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA Tracking: Keeping Vendor Dispatch on Schedule'  
+651077 2046-06-30T06:18:11 flex_post ['person:john_windward'] 'Package Notifications: Fast Resident Alerts'  2046-06-29T23:15:28
+651088 2046-06-30T06:19:26 saidit_post ['person:john_windward'] 'SLA Tracking & Vendor Dispatch Status for Property Staff' general 2046-06-29T23:21:34
+651104 2046-06-30T06:21:52 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'SLA Tracking & Vendor Dispatch Status for Property Staff' general 
+651114 2046-06-30T06:23:16 flex_post ['person:john_windward'] 'SLA Tracking: Keeping Vendor Dispatch on Schedule'  2046-06-29T23:17:30
+651124 2046-06-30T06:24:24 post_flex ['Agent/person:john_windward', 'system:flex'] 'Resident messaging: package notifications and delivery updates'  
+651155 2046-06-30T06:29:32 flex_post ['person:john_windward'] 'Resident messaging: package notifications and delivery updates'  2046-06-29T23:25:38
+651482 2046-06-30T07:36:07 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Package Notifications & Resident Messaging — TenantThread Technologies'  
+651496 2046-06-30T07:37:28 saidit_post ['person:dylan_hawser'] 'Work-Order Triage Updates for Maintenance Requests' general 2046-06-30T00:37:49
+651498 2046-06-30T07:38:51 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Work-Order Triage Updates for Maintenance Requests' general 
+651502 2046-06-30T07:39:32 flex_post ['person:dylan_hawser'] 'Package Notifications & Resident Messaging — TenantThread Technologies'  2046-06-30T00:35:47
+651516 2046-06-30T07:42:07 saidit_post ['person:dylan_hawser'] 'Package Notifications: Resident Messaging & Delivery Alerts' general 2046-06-30T00:43:55
+651526 2046-06-30T07:42:51 post_saidit ['Agent/person:dylan_hawser', 'system:saidit'] 'Package Notifications: Resident Messaging & Delivery Alerts' general 
+673164 2046-07-04T01:14:55 post_flex ['person:dylan_hawser'] None  2046-07-03T10:26:30
+674277 2046-07-04T04:35:23 flex_post ['person:william_rudder'] 'Building Announcements & Resident Messaging in HarborCrest ResidentEdge'  2046-07-03T21:37:55
+674294 2046-07-04T04:37:19 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Building Announcements & Resident Messaging in HarborCrest ResidentEdge'  
+674308 2046-07-04T04:40:16 flex_post ['person:william_rudder'] 'Vendor Dispatch & SLA Tracking for Maintenance Requests'  2046-07-03T21:41:59
+674334 2046-07-04T04:44:15 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Vendor Dispatch & SLA Tracking for Maintenance Requests'  
+674712 2046-07-04T05:49:32 flex_post ['person:dylan_hawser'] 'Work-Order Triage Updates for Property Staff'  2046-07-03T22:53:09
+674725 2046-07-04T05:53:56 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Work-Order Triage Updates for Property Staff'  
+675271 2046-07-04T07:23:25 post_flex ['Agent/person:william_rudder', 'system:flex'] 'SLA Tracking and Unit-Turn Coordination Alerts'  
+675301 2046-07-04T07:29:32 flex_post ['person:william_rudder'] 'SLA Tracking and Unit-Turn Coordination Alerts'  2046-07-04T00:24:39
+675498 2046-07-04T08:02:56 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+675515 2046-07-04T08:06:07 flex_post ['person:william_rudder'] 'Work-Order Triage Updates for Maintenance Requests'  2046-07-04T01:05:19
+675532 2046-07-04T08:09:40 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Vendor Dispatch & SLA Tracking Alerts'  
+675538 2046-07-04T08:09:50 flex_post ['person:william_rudder'] 'Vendor Dispatch & SLA Tracking Alerts'  2046-07-04T01:07:21
+676218 2046-07-04T10:08:16 post_flex ['Agent/person:william_rudder', 'system:flex'] 'SLA Tracking and Vendor Dispatch Alerts for CivicLoom Realty Partners'  
+676225 2046-07-04T10:09:32 flex_post ['person:william_rudder'] 'SLA Tracking and Vendor Dispatch Alerts for CivicLoom Realty Partners'  2046-07-04T03:09:21
+676356 2046-07-04T10:35:20 post_flex ['Agent/person:william_rudder', 'system:flex'] 'SLA Tracking Updates: Vendor Dispatch Status'  
+676374 2046-07-04T10:39:32 flex_post ['person:william_rudder'] 'SLA Tracking Updates: Vendor Dispatch Status'  2046-07-04T03:35:47
+676493 2046-07-04T10:58:10 post_flex ['person:william_rudder'] None  2046-07-03T08:38:50
+677178 2046-07-04T13:08:32 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+677191 2046-07-04T13:09:32 flex_post ['person:william_rudder'] 'Work-Order Triage Updates for Maintenance Requests'  2046-07-04T06:08:17
+677362 2046-07-04T13:39:32 flex_post ['person:william_rudder'] 'SLA Tracking and Vendor Dispatch for Unit Turns'  2046-07-04T06:42:51
+677370 2046-07-04T13:42:20 post_flex ['Agent/person:william_rudder', 'system:flex'] 'SLA Tracking and Vendor Dispatch for Unit Turns'  
+677398 2046-07-04T13:44:39 post_flex ['person:william_rudder'] None  2046-07-03T08:38:50
+679859 2046-07-04T21:09:26 saidit_post ['person:ava_tiller'] 'Work-Order Triage Updates for Maintenance Requests' general 2046-07-04T14:14:15
+679877 2046-07-04T21:15:09 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage Updates for Maintenance Requests' general 
+679887 2046-07-04T21:15:45 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage: Prioritize Maintenance Requests & SLA Tracking' general 
+679909 2046-07-04T21:19:26 saidit_post ['person:ava_tiller'] 'Work-Order Triage: Prioritize Maintenance Requests & SLA Tracking' general 2046-07-04T14:16:17
+679974 2046-07-04T21:29:26 saidit_post ['person:ava_tiller'] 'Work-Order Triage Updates for Property Staff' general 2046-07-04T14:32:33
+679997 2046-07-04T21:33:19 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Work-Order Triage Updates for Property Staff' general 
+680123 2046-07-04T21:58:36 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Unit-Turn Coordination: Renewal Notices and Resident Messaging' general 
+680132 2046-07-04T21:59:26 saidit_post ['person:ava_tiller'] 'Unit-Turn Coordination: Renewal Notices and Resident Messaging' general 2046-07-04T14:58:59
+691090 2046-07-06T15:49:32 flex_post ['person:dylan_hawser'] 'Resident Messaging: Building Announcements & Package Notifications'  2046-07-06T08:51:09
+691115 2046-07-06T15:51:31 post_flex ['system:flex', 'Agent/person:dylan_hawser'] 'Resident Messaging: Building Announcements & Package Notifications'  
+696711 2046-07-07T10:06:57 post_flex ['Agent/person:john_windward', 'system:flex'] 'Resident Messaging: Quick Updates on Maintenance Requests'  
+696733 2046-07-07T10:09:32 flex_post ['person:john_windward'] 'Resident Messaging: Quick Updates on Maintenance Requests'  2046-07-07T03:05:39
+696926 2046-07-07T10:43:11 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Renewal Notices: Rent Increase Planning and Tenant Messaging'  
+696966 2046-07-07T10:49:26 saidit_post ['person:aria_towline'] 'SLA tracking updates for maintenance requests' general 2046-07-07T03:52:25
+696973 2046-07-07T10:49:32 flex_post ['person:aria_towline'] 'Renewal Notices: Rent Increase Planning and Tenant Messaging'  2046-07-07T03:46:19
+696992 2046-07-07T10:52:37 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'SLA tracking updates for maintenance requests' general 
+697006 2046-07-07T10:57:17 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Package Notifications & Resident Messaging Updates for HarborCrest ResidentEdge'  
+697021 2046-07-07T10:59:32 flex_post ['person:aria_towline'] 'Package Notifications & Resident Messaging Updates for HarborCrest ResidentEdge'  2046-07-07T03:56:29
+697028 2046-07-07T11:01:44 post_flex ['Agent/person:john_windward', 'system:flex'] 'Work-Order Triage Updates for Residents'  
+697047 2046-07-07T11:04:44 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'SLA Tracking for Maintenance Requests at HarborCrest ResidentEdge' general 
+697090 2046-07-07T11:09:26 saidit_post ['person:john_windward'] 'SLA Tracking for Maintenance Requests at HarborCrest ResidentEdge' general 2046-07-07T04:08:41
+697095 2046-07-07T11:09:32 flex_post ['person:john_windward'] 'Work-Order Triage Updates for Residents'  2046-07-07T04:06:39
+697157 2046-07-07T11:18:57 post_flex ['Agent/person:john_windward', 'system:flex'] 'Work-order triage: streamline vendor dispatch and SLA tracking for property staff'  
+697164 2046-07-07T11:19:32 flex_post ['person:john_windward'] 'Work-order triage: streamline vendor dispatch and SLA tracking for property staff'  2046-07-07T04:18:51
+697224 2046-07-07T11:29:32 flex_post ['person:john_windward'] 'Amenity Reservations & Building Announcements for Tenants'  2046-07-07T04:33:05
+697263 2046-07-07T11:35:56 post_flex ['Agent/person:john_windward', 'system:flex'] 'Amenity Reservations & Building Announcements for Tenants'  
+697401 2046-07-07T11:59:26 saidit_post ['person:aria_towline'] 'Vendor Dispatch & SLA Tracking Status—CivicLoom Realty Partners' general 2046-07-07T04:57:29
+697418 2046-07-07T12:04:10 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Vendor Dispatch & SLA Tracking Status—CivicLoom Realty Partners' general 
+697722 2046-07-07T12:51:30 post_saidit ['person:aria_towline'] None  2046-07-06T11:51:43
+697764 2046-07-07T12:59:26 saidit_post ['person:aria_towline'] 'Vendor Dispatch & SLA Tracking—Property Staff Alert' general 2046-07-07T06:02:33
+697788 2046-07-07T13:01:39 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Vendor Dispatch & SLA Tracking—Property Staff Alert' general 
+697799 2046-07-07T13:04:11 post_flex ['Agent/person:aria_towline', 'system:flex'] 'SLA Tracking & Vendor Dispatch Alerts'  
+697836 2046-07-07T13:09:32 flex_post ['person:aria_towline'] 'SLA Tracking & Vendor Dispatch Alerts'  2046-07-07T06:06:37
+697985 2046-07-07T13:41:38 post_flex ['person:aria_towline'] None  2046-07-06T11:51:43
+698070 2046-07-07T13:58:09 post_flex ['Agent/person:john_windward', 'system:flex'] 'SLA tracking: renewal notices and unit-turn coordination'  
+698079 2046-07-07T13:59:26 saidit_post ['person:john_windward'] 'Amenity reservations reminders for HarborCrest ResidentEdge' general 2046-07-07T07:01:31
+698080 2046-07-07T13:59:32 flex_post ['person:john_windward'] 'SLA tracking: renewal notices and unit-turn coordination'  2046-07-07T06:55:25
+698111 2046-07-07T14:05:58 post_saidit ['Agent/person:john_windward', 'system:saidit'] 'Amenity reservations reminders for HarborCrest ResidentEdge' general 
+698235 2046-07-07T14:33:36 post_flex ['person:aria_towline'] None  2046-07-06T11:51:43
+698264 2046-07-07T14:36:14 post_saidit ['Agent/person:aria_towline', 'system:saidit'] 'Package Notifications: Tenant Messaging from HarborCrest ResidentEdge' general 
+698296 2046-07-07T14:39:26 saidit_post ['person:aria_towline'] 'Package Notifications: Tenant Messaging from HarborCrest ResidentEdge' general 2046-07-07T07:36:05
+698363 2046-07-07T14:55:11 post_flex ['person:aria_towline'] None  2046-07-06T11:51:43
+698458 2046-07-07T15:11:32 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage Updates for Property Staff'  
+698505 2046-07-07T15:19:32 flex_post ['person:aria_towline'] 'Work-Order Triage Updates for Property Staff'  2046-07-07T08:14:43
+698518 2046-07-07T15:24:23 post_flex ['person:john_windward'] None  2046-07-06T11:54:43
+700215 2046-07-07T20:54:36 flex_post ['person:anthony_reef'] 'Amenity Reservation Reminders for Residents'  2046-07-07T13:55:18
+700228 2046-07-07T20:55:16 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Amenity Reservation Reminders for Residents'  
+700229 2046-07-07T20:55:19 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Work-Order Triage: Prioritizing Maintenance Requests for Faster SLA Tracking'  
+700251 2046-07-07T20:57:38 flex_post ['person:anthony_reef'] 'Work-Order Triage: Prioritizing Maintenance Requests for Faster SLA Tracking'  2046-07-07T13:57:20
+700303 2046-07-07T21:05:25 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Package Notifications & Resident Messaging Updates at HarborCrest ResidentEdge' general 
+700330 2046-07-07T21:09:26 saidit_post ['person:anthony_reef'] 'Package Notifications & Resident Messaging Updates at HarborCrest ResidentEdge' general 2046-07-07T14:07:30
+700427 2046-07-07T21:29:26 saidit_post ['person:anthony_reef'] 'SLA Tracking and Vendor Dispatch Alerts' general 2046-07-07T14:27:50
+700434 2046-07-07T21:29:32 flex_post ['person:anthony_reef'] 'SLA Tracking: Renewal Notices & Resident Messaging Follow-Ups'  2046-07-07T14:31:54
+700442 2046-07-07T21:31:23 post_flex ['person:anthony_reef'] None  2046-07-06T11:43:43
+700453 2046-07-07T21:31:56 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'SLA Tracking and Vendor Dispatch Alerts' general 
+700473 2046-07-07T21:33:35 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'SLA Tracking: Renewal Notices & Resident Messaging Follow-Ups'  
+700507 2046-07-07T21:39:32 flex_post ['person:anthony_reef'] 'Vendor Dispatch and SLA Tracking Alerts for Property Staff'  2046-07-07T14:44:06
+700538 2046-07-07T21:44:43 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Vendor Dispatch and SLA Tracking Alerts for Property Staff'  
+700682 2046-07-07T22:07:03 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Work-Order Triage Updates for Maintenance Requests' general 
+700691 2046-07-07T22:09:26 saidit_post ['person:anthony_reef'] 'Work-Order Triage Updates for Maintenance Requests' general 2046-07-07T15:06:28
+701295 2046-07-07T23:55:56 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Building Announcements & Resident Messaging—SLA Tracking' general 
+701306 2046-07-07T23:59:26 saidit_post ['person:ava_tiller'] 'Building Announcements & Resident Messaging—SLA Tracking' general 2046-07-07T16:56:16
+701667 2046-07-08T01:06:39 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'SLA Tracking & Vendor Dispatch Alerts' general 
+701683 2046-07-08T01:09:26 saidit_post ['person:ava_tiller'] 'SLA Tracking & Vendor Dispatch Alerts' general 2046-07-07T18:06:25
+717915 2046-07-10T17:20:25 post_flex ['person:aria_towline'] None  2046-07-10T07:42:49
+717956 2046-07-10T17:27:24 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Vendor Dispatch & SLA Tracking Alerts'  
+717960 2046-07-10T17:28:59 flex_post ['person:aria_towline'] 'Vendor Dispatch & SLA Tracking Alerts'  2046-07-10T10:25:24
+717975 2046-07-10T17:31:17 flex_post ['person:aria_towline'] 'Package Notifications & Resident Messaging Updates via ResidentEdge'  2046-07-10T10:27:26
+717978 2046-07-10T17:32:25 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Package Notifications & Resident Messaging Updates via ResidentEdge'  
+718060 2046-07-10T17:45:16 post_saidit ['person:aria_towline'] None  2046-07-10T07:42:49
+718070 2046-07-10T17:49:32 flex_post ['person:aria_towline'] 'Work-Order Triage Updates — SLA Tracking for Maintenance Requests'  2046-07-10T10:47:46
+718077 2046-07-10T17:52:25 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage Updates — SLA Tracking for Maintenance Requests'  
+718155 2046-07-10T18:09:32 flex_post ['person:aria_towline'] 'Vendor Dispatch & SLA Tracking for Maintenance Requests'  2046-07-10T11:10:08
+718163 2046-07-10T18:10:08 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Vendor Dispatch & SLA Tracking for Maintenance Requests'  
+718173 2046-07-10T18:11:57 post_saidit ['person:aria_towline'] None  2046-07-10T07:42:49
+718228 2046-07-10T18:19:32 flex_post ['person:aria_towline'] 'Work-Order Triage Updates for Maintenance Requests'  2046-07-10T11:22:20
+718275 2046-07-10T18:27:04 post_flex ['Agent/person:aria_towline', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+723790 2046-07-11T18:59:32 flex_post ['person:william_rudder'] 'Package Notifications: Fast Resident Messaging'  2046-07-11T12:01:05
+723802 2046-07-11T19:01:41 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Package Notifications: Fast Resident Messaging'  
+723867 2046-07-11T19:09:32 flex_post ['person:william_rudder'] 'Unit-Turn Coordination: Renewal Notices & Resident Messaging'  2046-07-11T12:09:13
+723880 2046-07-11T19:10:42 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Unit-Turn Coordination: Renewal Notices & Resident Messaging'  
+726352 2046-07-12T06:39:32 flex_post ['person:william_rudder'] 'Renewal Notices and Churn Risk Analytics for Property Managers'  2046-07-11T23:38:44
+726357 2046-07-12T06:39:51 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Renewal Notices and Churn Risk Analytics for Property Managers'  
+726588 2046-07-12T07:19:32 flex_post ['person:william_rudder'] 'Amenity Reservations: Unit-Turn Coordination for Upcoming Renewals'  2046-07-12T00:19:24
+726596 2046-07-12T07:20:03 post_flex ['Agent/person:william_rudder', 'system:flex'] 'Amenity Reservations: Unit-Turn Coordination for Upcoming Renewals'  
+730066 2046-07-13T02:38:08 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Vendor Dispatch Updates: Streamlining Unit-Turn Coordination'  
+730072 2046-07-13T02:39:32 flex_post ['person:anthony_reef'] 'Vendor Dispatch Updates: Streamlining Unit-Turn Coordination'  2046-07-12T19:38:07
+730098 2046-07-13T02:45:15 post_flex ['person:anthony_reef'] None  2046-07-12T08:32:59
+730108 2046-07-13T02:45:46 flex_post ['person:anthony_reef'] 'Amenity Reservations and Unit-Turn Coordination With Vendor Dispatch Support'  2046-07-12T19:48:17
+730132 2046-07-13T02:49:32 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Amenity Reservations and Unit-Turn Coordination With Vendor Dispatch Support'  
+730140 2046-07-13T02:50:22 flex_post ['person:anthony_reef'] 'Work-Order Triage Updates for Maintenance Requests'  2046-07-12T19:52:21
+730153 2046-07-13T02:52:59 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Work-Order Triage Updates for Maintenance Requests'  
+730195 2046-07-13T02:59:32 flex_post ['person:anthony_reef'] 'Package Notifications: Vendor Dispatch & Delivery Alerts'  2046-07-12T20:02:31
+730234 2046-07-13T03:04:42 post_flex ['Agent/person:anthony_reef', 'system:flex'] 'Package Notifications: Vendor Dispatch & Delivery Alerts'  
+730944 2046-07-13T05:15:35 post_saidit ['Agent/person:anthony_reef', 'system:saidit'] 'Resident Messaging: Building Announcements & Package Notifications' general 
+730962 2046-07-13T05:19:26 saidit_post ['person:anthony_reef'] 'Resident Messaging: Building Announcements & Package Notifications' general 2046-07-12T22:16:43
+748032 2046-07-15T15:58:20 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Building Announcements & Resident Messaging—Amenity Reservation Alerts' general 
+748039 2046-07-15T15:59:26 saidit_post ['person:ava_tiller'] 'Building Announcements & Resident Messaging—Amenity Reservation Alerts' general 2046-07-15T08:57:08
+748065 2046-07-15T16:02:26 post_saidit ['person:ava_tiller'] None  2046-07-15T08:46:59
+749351 2046-07-15T22:12:49 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Vendor Dispatch and Unit-Turn Coordination for CivicLoom Realty Partners' general 
+749369 2046-07-15T22:19:26 saidit_post ['person:ava_tiller'] 'Vendor Dispatch and Unit-Turn Coordination for CivicLoom Realty Partners' general 2046-07-15T15:17:01
+749611 2046-07-15T23:02:59 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Vendor Dispatch Updates and SLA Tracking' general 
+749630 2046-07-15T23:05:39 saidit_post ['person:ava_tiller'] 'Vendor Dispatch Updates and SLA Tracking' general 2046-07-15T16:05:49
+749637 2046-07-15T23:07:27 saidit_post ['person:ava_tiller'] 'Package Notifications & Resident Messaging in HarborCrest ResidentEdge' general 2046-07-15T16:13:57
+749687 2046-07-15T23:17:29 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Package Notifications & Resident Messaging in HarborCrest ResidentEdge' general 
+749707 2046-07-15T23:18:59 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Package Notifications & Vendor Dispatch Coordination' general 
+749715 2046-07-15T23:19:26 saidit_post ['person:ava_tiller'] 'Package Notifications & Vendor Dispatch Coordination' general 2046-07-15T16:18:01
+750017 2046-07-16T00:15:33 post_saidit ['Agent/person:ava_tiller', 'system:saidit'] 'Unit-Turn Coordination: Align Vendor Dispatch for Renewal Notices' general 
+750053 2046-07-16T00:19:26 saidit_post ['person:ava_tiller'] 'Unit-Turn Coordination: Align Vendor Dispatch for Renewal Notices' general 2046-07-15T17:14:57

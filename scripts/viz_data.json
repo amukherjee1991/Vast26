@@ -1,0 +1,3897 @@
+{
+ "worms": {
+  "HiddenOrca": {
+   "n_hops": 39,
+   "n_agents": 16,
+   "agents_in_order": [
+    "gabriel_sonar",
+    "zoey_drydock",
+    "olivia_keel",
+    "liam_anchor",
+    "victoria_rigging",
+    "james_stern",
+    "owen_hatch",
+    "michael_capstan",
+    "lily_anchorline",
+    "evelyn_dock",
+    "chloe_ballast",
+    "mia_fender",
+    "henry_sail",
+    "levi_signal",
+    "daniel_gangway",
+    "john_windward"
+   ],
+   "chain": [
+    {
+     "id": 15788,
+     "utc": "2046-05-08T21:50:03",
+     "from": "gabriel_sonar",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 16083,
+     "utc": "2046-05-08T22:48:16",
+     "from": "zoey_drydock",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 16231,
+     "utc": "2046-05-08T23:10:39",
+     "from": "olivia_keel",
+     "to": "liam_anchor",
+     "from_dept": "Products",
+     "to_dept": "Executive Suite",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 16247,
+     "utc": "2046-05-08T23:13:50",
+     "from": "liam_anchor",
+     "to": "victoria_rigging",
+     "from_dept": "Executive Suite",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 16559,
+     "utc": "2046-05-09T00:06:10",
+     "from": "victoria_rigging",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 16857,
+     "utc": "2046-05-09T00:49:39",
+     "from": "victoria_rigging",
+     "to": "james_stern",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Residential App"
+    },
+    {
+     "id": 17029,
+     "utc": "2046-05-09T01:23:23",
+     "from": "james_stern",
+     "to": "james_stern",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Residential App",
+     "to_team": "Residential App"
+    },
+    {
+     "id": 17580,
+     "utc": "2046-05-09T02:57:48",
+     "from": "james_stern",
+     "to": "james_stern",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Residential App",
+     "to_team": "Residential App"
+    },
+    {
+     "id": 17735,
+     "utc": "2046-05-09T03:44:32",
+     "from": "james_stern",
+     "to": "zoey_drydock",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Residential App",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 18222,
+     "utc": "2046-05-09T05:41:57",
+     "from": "zoey_drydock",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 18439,
+     "utc": "2046-05-09T06:36:21",
+     "from": "zoey_drydock",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 18832,
+     "utc": "2046-05-09T08:04:25",
+     "from": "owen_hatch",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 18999,
+     "utc": "2046-05-09T08:31:24",
+     "from": "victoria_rigging",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 19505,
+     "utc": "2046-05-09T09:52:13",
+     "from": "olivia_keel",
+     "to": "owen_hatch",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 19780,
+     "utc": "2046-05-09T10:35:31",
+     "from": "owen_hatch",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 20118,
+     "utc": "2046-05-09T11:31:40",
+     "from": "liam_anchor",
+     "to": "michael_capstan",
+     "from_dept": "Executive Suite",
+     "to_dept": "Human Resources",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 20443,
+     "utc": "2046-05-09T12:33:22",
+     "from": "michael_capstan",
+     "to": "lily_anchorline",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 20499,
+     "utc": "2046-05-09T12:42:55",
+     "from": "lily_anchorline",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Infrastructure",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 21023,
+     "utc": "2046-05-09T14:25:23",
+     "from": "evelyn_dock",
+     "to": "olivia_keel",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Integrations",
+     "to_team": null
+    },
+    {
+     "id": 21101,
+     "utc": "2046-05-09T14:40:57",
+     "from": "olivia_keel",
+     "to": "chloe_ballast",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 21584,
+     "utc": "2046-05-09T15:57:49",
+     "from": "chloe_ballast",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 21949,
+     "utc": "2046-05-09T17:04:36",
+     "from": "mia_fender",
+     "to": "zoey_drydock",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Property Ops Console",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 22505,
+     "utc": "2046-05-09T18:52:29",
+     "from": "zoey_drydock",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 23821,
+     "utc": "2046-05-09T20:33:36",
+     "from": "gabriel_sonar",
+     "to": "henry_sail",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 24107,
+     "utc": "2046-05-09T21:54:50",
+     "from": "henry_sail",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Analytics Suite",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 24398,
+     "utc": "2046-05-09T23:13:31",
+     "from": "evelyn_dock",
+     "to": "gabriel_sonar",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 24687,
+     "utc": "2046-05-10T00:38:20",
+     "from": "gabriel_sonar",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 24901,
+     "utc": "2046-05-10T01:31:08",
+     "from": "levi_signal",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 24940,
+     "utc": "2046-05-10T01:44:12",
+     "from": "mia_fender",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Property Ops Console",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 25121,
+     "utc": "2046-05-10T02:39:32",
+     "from": "levi_signal",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 25241,
+     "utc": "2046-05-10T03:17:02",
+     "from": "owen_hatch",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 25496,
+     "utc": "2046-05-10T04:28:29",
+     "from": "victoria_rigging",
+     "to": "lily_anchorline",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 25821,
+     "utc": "2046-05-10T05:57:15",
+     "from": "lily_anchorline",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Infrastructure",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 25973,
+     "utc": "2046-05-10T06:38:51",
+     "from": "evelyn_dock",
+     "to": "daniel_gangway",
+     "from_dept": "Products",
+     "to_dept": "Human Resources",
+     "from_team": "Integrations",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 26259,
+     "utc": "2046-05-10T08:06:56",
+     "from": "daniel_gangway",
+     "to": "gabriel_sonar",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 26530,
+     "utc": "2046-05-10T09:26:01",
+     "from": "gabriel_sonar",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 26854,
+     "utc": "2046-05-10T11:01:45",
+     "from": "chloe_ballast",
+     "to": "michael_capstan",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 26868,
+     "utc": "2046-05-10T11:05:24",
+     "from": "michael_capstan",
+     "to": "chloe_ballast",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 27280,
+     "utc": "2046-05-10T12:45:40",
+     "from": "chloe_ballast",
+     "to": "john_windward",
+     "from_dept": "Information Technologies",
+     "to_dept": "Customer Support",
+     "from_team": null,
+     "to_team": null
+    }
+   ],
+   "cum": [
+    {
+     "id": 15788,
+     "utc": "2046-05-08T21:50:03",
+     "cum_agents": 2
+    },
+    {
+     "id": 16083,
+     "utc": "2046-05-08T22:48:16",
+     "cum_agents": 3
+    },
+    {
+     "id": 16231,
+     "utc": "2046-05-08T23:10:39",
+     "cum_agents": 4
+    },
+    {
+     "id": 16247,
+     "utc": "2046-05-08T23:13:50",
+     "cum_agents": 5
+    },
+    {
+     "id": 16559,
+     "utc": "2046-05-09T00:06:10",
+     "cum_agents": 5
+    },
+    {
+     "id": 16857,
+     "utc": "2046-05-09T00:49:39",
+     "cum_agents": 6
+    },
+    {
+     "id": 17029,
+     "utc": "2046-05-09T01:23:23",
+     "cum_agents": 6
+    },
+    {
+     "id": 17580,
+     "utc": "2046-05-09T02:57:48",
+     "cum_agents": 6
+    },
+    {
+     "id": 17735,
+     "utc": "2046-05-09T03:44:32",
+     "cum_agents": 6
+    },
+    {
+     "id": 18222,
+     "utc": "2046-05-09T05:41:57",
+     "cum_agents": 6
+    },
+    {
+     "id": 18439,
+     "utc": "2046-05-09T06:36:21",
+     "cum_agents": 7
+    },
+    {
+     "id": 18832,
+     "utc": "2046-05-09T08:04:25",
+     "cum_agents": 7
+    },
+    {
+     "id": 18999,
+     "utc": "2046-05-09T08:31:24",
+     "cum_agents": 7
+    },
+    {
+     "id": 19505,
+     "utc": "2046-05-09T09:52:13",
+     "cum_agents": 7
+    },
+    {
+     "id": 19780,
+     "utc": "2046-05-09T10:35:31",
+     "cum_agents": 7
+    },
+    {
+     "id": 20118,
+     "utc": "2046-05-09T11:31:40",
+     "cum_agents": 8
+    },
+    {
+     "id": 20443,
+     "utc": "2046-05-09T12:33:22",
+     "cum_agents": 9
+    },
+    {
+     "id": 20499,
+     "utc": "2046-05-09T12:42:55",
+     "cum_agents": 10
+    },
+    {
+     "id": 21023,
+     "utc": "2046-05-09T14:25:23",
+     "cum_agents": 10
+    },
+    {
+     "id": 21101,
+     "utc": "2046-05-09T14:40:57",
+     "cum_agents": 11
+    },
+    {
+     "id": 21584,
+     "utc": "2046-05-09T15:57:49",
+     "cum_agents": 12
+    },
+    {
+     "id": 21949,
+     "utc": "2046-05-09T17:04:36",
+     "cum_agents": 12
+    },
+    {
+     "id": 22505,
+     "utc": "2046-05-09T18:52:29",
+     "cum_agents": 12
+    },
+    {
+     "id": 23821,
+     "utc": "2046-05-09T20:33:36",
+     "cum_agents": 13
+    },
+    {
+     "id": 24107,
+     "utc": "2046-05-09T21:54:50",
+     "cum_agents": 13
+    },
+    {
+     "id": 24398,
+     "utc": "2046-05-09T23:13:31",
+     "cum_agents": 13
+    },
+    {
+     "id": 24687,
+     "utc": "2046-05-10T00:38:20",
+     "cum_agents": 14
+    },
+    {
+     "id": 24901,
+     "utc": "2046-05-10T01:31:08",
+     "cum_agents": 14
+    },
+    {
+     "id": 24940,
+     "utc": "2046-05-10T01:44:12",
+     "cum_agents": 14
+    },
+    {
+     "id": 25121,
+     "utc": "2046-05-10T02:39:32",
+     "cum_agents": 14
+    },
+    {
+     "id": 25241,
+     "utc": "2046-05-10T03:17:02",
+     "cum_agents": 14
+    },
+    {
+     "id": 25496,
+     "utc": "2046-05-10T04:28:29",
+     "cum_agents": 14
+    },
+    {
+     "id": 25821,
+     "utc": "2046-05-10T05:57:15",
+     "cum_agents": 14
+    },
+    {
+     "id": 25973,
+     "utc": "2046-05-10T06:38:51",
+     "cum_agents": 15
+    },
+    {
+     "id": 26259,
+     "utc": "2046-05-10T08:06:56",
+     "cum_agents": 15
+    },
+    {
+     "id": 26530,
+     "utc": "2046-05-10T09:26:01",
+     "cum_agents": 15
+    },
+    {
+     "id": 26854,
+     "utc": "2046-05-10T11:01:45",
+     "cum_agents": 15
+    },
+    {
+     "id": 26868,
+     "utc": "2046-05-10T11:05:24",
+     "cum_agents": 15
+    },
+    {
+     "id": 27280,
+     "utc": "2046-05-10T12:45:40",
+     "cum_agents": 16
+    }
+   ],
+   "per_day": {
+    "2046-05-08": 4,
+    "2046-05-09": 22,
+    "2046-05-10": 13
+   },
+   "dept_flow": [
+    {
+     "from": "Information Technologies",
+     "to": "Information Technologies",
+     "count": 11
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Products",
+     "count": 8
+    },
+    {
+     "from": "Products",
+     "to": "Information Technologies",
+     "count": 6
+    },
+    {
+     "from": "Products",
+     "to": "Products",
+     "count": 4
+    },
+    {
+     "from": "Human Resources",
+     "to": "Information Technologies",
+     "count": 3
+    },
+    {
+     "from": "Products",
+     "to": "Executive Suite",
+     "count": 1
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Information Technologies",
+     "count": 1
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Executive Suite",
+     "count": 1
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Human Resources",
+     "count": 1
+    },
+    {
+     "from": "Products",
+     "to": "Human Resources",
+     "count": 1
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Human Resources",
+     "count": 1
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Customer Support",
+     "count": 1
+    }
+   ],
+   "agent_counts": {
+    "gabriel_sonar": 7,
+    "zoey_drydock": 8,
+    "olivia_keel": 6,
+    "liam_anchor": 4,
+    "victoria_rigging": 8,
+    "james_stern": 6,
+    "owen_hatch": 6,
+    "michael_capstan": 4,
+    "lily_anchorline": 4,
+    "evelyn_dock": 6,
+    "chloe_ballast": 6,
+    "mia_fender": 4,
+    "henry_sail": 2,
+    "levi_signal": 4,
+    "daniel_gangway": 2,
+    "john_windward": 1
+   },
+   "post_event": 27290,
+   "post_utc": "2046-05-10T12:45:42"
+  },
+  "MellowOtter": {
+   "n_hops": 10,
+   "n_agents": 11,
+   "agents_in_order": [
+    "noah_mariner",
+    "victoria_rigging",
+    "owen_hatch",
+    "levi_signal",
+    "olivia_keel",
+    "mia_fender",
+    "evelyn_dock",
+    "gabriel_sonar",
+    "zoey_drydock",
+    "lily_anchorline",
+    "john_windward"
+   ],
+   "chain": [
+    {
+     "id": 27734,
+     "utc": "2046-05-10T15:02:03",
+     "from": "noah_mariner",
+     "to": "victoria_rigging",
+     "from_dept": "Executive Suite",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 27892,
+     "utc": "2046-05-10T15:47:25",
+     "from": "victoria_rigging",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 27974,
+     "utc": "2046-05-10T16:08:51",
+     "from": "owen_hatch",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 28233,
+     "utc": "2046-05-10T17:21:19",
+     "from": "levi_signal",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 28655,
+     "utc": "2046-05-10T18:59:58",
+     "from": "olivia_keel",
+     "to": "mia_fender",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 40061,
+     "utc": "2046-05-10T20:55:57",
+     "from": "mia_fender",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 56924,
+     "utc": "2046-05-10T22:05:48",
+     "from": "evelyn_dock",
+     "to": "gabriel_sonar",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 62183,
+     "utc": "2046-05-10T22:27:21",
+     "from": "gabriel_sonar",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 76844,
+     "utc": "2046-05-10T23:26:59",
+     "from": "zoey_drydock",
+     "to": "lily_anchorline",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 98577,
+     "utc": "2046-05-11T00:56:02",
+     "from": "lily_anchorline",
+     "to": "john_windward",
+     "from_dept": "Information Technologies",
+     "to_dept": "Customer Support",
+     "from_team": "Infrastructure",
+     "to_team": null
+    }
+   ],
+   "cum": [
+    {
+     "id": 27734,
+     "utc": "2046-05-10T15:02:03",
+     "cum_agents": 2
+    },
+    {
+     "id": 27892,
+     "utc": "2046-05-10T15:47:25",
+     "cum_agents": 3
+    },
+    {
+     "id": 27974,
+     "utc": "2046-05-10T16:08:51",
+     "cum_agents": 4
+    },
+    {
+     "id": 28233,
+     "utc": "2046-05-10T17:21:19",
+     "cum_agents": 5
+    },
+    {
+     "id": 28655,
+     "utc": "2046-05-10T18:59:58",
+     "cum_agents": 6
+    },
+    {
+     "id": 40061,
+     "utc": "2046-05-10T20:55:57",
+     "cum_agents": 7
+    },
+    {
+     "id": 56924,
+     "utc": "2046-05-10T22:05:48",
+     "cum_agents": 8
+    },
+    {
+     "id": 62183,
+     "utc": "2046-05-10T22:27:21",
+     "cum_agents": 9
+    },
+    {
+     "id": 76844,
+     "utc": "2046-05-10T23:26:59",
+     "cum_agents": 10
+    },
+    {
+     "id": 98577,
+     "utc": "2046-05-11T00:56:02",
+     "cum_agents": 11
+    }
+   ],
+   "per_day": {
+    "2046-05-10": 9,
+    "2046-05-11": 1
+   },
+   "dept_flow": [
+    {
+     "from": "Information Technologies",
+     "to": "Information Technologies",
+     "count": 4
+    },
+    {
+     "from": "Products",
+     "to": "Products",
+     "count": 2
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Information Technologies",
+     "count": 1
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Products",
+     "count": 1
+    },
+    {
+     "from": "Products",
+     "to": "Information Technologies",
+     "count": 1
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Customer Support",
+     "count": 1
+    }
+   ],
+   "agent_counts": {
+    "noah_mariner": 1,
+    "victoria_rigging": 2,
+    "owen_hatch": 2,
+    "levi_signal": 2,
+    "olivia_keel": 2,
+    "mia_fender": 2,
+    "evelyn_dock": 2,
+    "gabriel_sonar": 2,
+    "zoey_drydock": 2,
+    "lily_anchorline": 2,
+    "john_windward": 1
+   },
+   "post_event": 98591,
+   "post_utc": "2046-05-11T00:56:04"
+  },
+  "SwiftWren": {
+   "n_hops": 186,
+   "n_agents": 18,
+   "agents_in_order": [
+    "emma_harbor",
+    "evelyn_dock",
+    "chloe_ballast",
+    "mia_fender",
+    "levi_signal",
+    "owen_hatch",
+    "victoria_rigging",
+    "daniel_gangway",
+    "lily_anchorline",
+    "gabriel_sonar",
+    "liam_anchor",
+    "henry_sail",
+    "olivia_keel",
+    "john_windward",
+    "david_breakwater",
+    "zoey_drydock",
+    "james_stern",
+    "michael_capstan"
+   ],
+   "chain": [
+    {
+     "id": 21209,
+     "utc": "2046-05-09T15:02:03",
+     "from": "emma_harbor",
+     "to": "evelyn_dock",
+     "from_dept": "Executive Suite",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Integrations"
+    },
+    {
+     "id": 21882,
+     "utc": "2046-05-09T16:52:13",
+     "from": "evelyn_dock",
+     "to": "chloe_ballast",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": null
+    },
+    {
+     "id": 22234,
+     "utc": "2046-05-09T17:56:48",
+     "from": "chloe_ballast",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 22642,
+     "utc": "2046-05-09T19:21:15",
+     "from": "mia_fender",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Property Ops Console",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 22644,
+     "utc": "2046-05-09T19:22:16",
+     "from": "levi_signal",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 23869,
+     "utc": "2046-05-09T20:54:23",
+     "from": "owen_hatch",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 24188,
+     "utc": "2046-05-09T22:13:40",
+     "from": "victoria_rigging",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 24332,
+     "utc": "2046-05-09T22:57:39",
+     "from": "owen_hatch",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Infrastructure",
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 24629,
+     "utc": "2046-05-10T00:18:06",
+     "from": "mia_fender",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 25009,
+     "utc": "2046-05-10T02:05:42",
+     "from": "evelyn_dock",
+     "to": "daniel_gangway",
+     "from_dept": "Products",
+     "to_dept": "Human Resources",
+     "from_team": "Integrations",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 25341,
+     "utc": "2046-05-10T03:43:36",
+     "from": "daniel_gangway",
+     "to": "chloe_ballast",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": null
+    },
+    {
+     "id": 25600,
+     "utc": "2046-05-10T04:56:09",
+     "from": "chloe_ballast",
+     "to": "lily_anchorline",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 25681,
+     "utc": "2046-05-10T05:17:59",
+     "from": "lily_anchorline",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 25905,
+     "utc": "2046-05-10T06:18:25",
+     "from": "gabriel_sonar",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 25933,
+     "utc": "2046-05-10T06:31:17",
+     "from": "chloe_ballast",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 26154,
+     "utc": "2046-05-10T07:35:30",
+     "from": "mia_fender",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 26552,
+     "utc": "2046-05-10T09:29:25",
+     "from": "evelyn_dock",
+     "to": "daniel_gangway",
+     "from_dept": "Products",
+     "to_dept": "Human Resources",
+     "from_team": "Integrations",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 26819,
+     "utc": "2046-05-10T10:46:09",
+     "from": "daniel_gangway",
+     "to": "victoria_rigging",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 27091,
+     "utc": "2046-05-10T12:00:12",
+     "from": "victoria_rigging",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 27220,
+     "utc": "2046-05-10T12:34:11",
+     "from": "owen_hatch",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 27502,
+     "utc": "2046-05-10T13:44:59",
+     "from": "liam_anchor",
+     "to": "gabriel_sonar",
+     "from_dept": "Executive Suite",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 27850,
+     "utc": "2046-05-10T15:34:46",
+     "from": "gabriel_sonar",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 27935,
+     "utc": "2046-05-10T16:04:14",
+     "from": "victoria_rigging",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 28308,
+     "utc": "2046-05-10T17:38:22",
+     "from": "gabriel_sonar",
+     "to": "henry_sail",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 28404,
+     "utc": "2046-05-10T17:59:19",
+     "from": "henry_sail",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Analytics Suite",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 28603,
+     "utc": "2046-05-10T18:48:40",
+     "from": "levi_signal",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 28793,
+     "utc": "2046-05-10T19:37:29",
+     "from": "olivia_keel",
+     "to": "olivia_keel",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 46396,
+     "utc": "2046-05-10T21:22:27",
+     "from": "olivia_keel",
+     "to": "john_windward",
+     "from_dept": "Products",
+     "to_dept": "Customer Support",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 59126,
+     "utc": "2046-05-10T22:14:56",
+     "from": "john_windward",
+     "to": "owen_hatch",
+     "from_dept": "Customer Support",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 82635,
+     "utc": "2046-05-10T23:50:24",
+     "from": "owen_hatch",
+     "to": "david_breakwater",
+     "from_dept": "Information Technologies",
+     "to_dept": "Legal",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 85342,
+     "utc": "2046-05-11T00:01:28",
+     "from": "david_breakwater",
+     "to": "henry_sail",
+     "from_dept": "Legal",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 86741,
+     "utc": "2046-05-11T00:07:05",
+     "from": "henry_sail",
+     "to": "henry_sail",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Analytics Suite",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 110012,
+     "utc": "2046-05-11T01:42:45",
+     "from": "henry_sail",
+     "to": "zoey_drydock",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Analytics Suite",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 119716,
+     "utc": "2046-05-11T03:05:50",
+     "from": "zoey_drydock",
+     "to": "henry_sail",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 119921,
+     "utc": "2046-05-11T03:45:54",
+     "from": "henry_sail",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Analytics Suite",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 119950,
+     "utc": "2046-05-11T03:52:03",
+     "from": "evelyn_dock",
+     "to": "henry_sail",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Integrations",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 120525,
+     "utc": "2046-05-11T05:23:50",
+     "from": "henry_sail",
+     "to": "zoey_drydock",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Analytics Suite",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 120761,
+     "utc": "2046-05-11T05:59:44",
+     "from": "zoey_drydock",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 120942,
+     "utc": "2046-05-11T06:35:27",
+     "from": "chloe_ballast",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 121211,
+     "utc": "2046-05-11T07:12:47",
+     "from": "liam_anchor",
+     "to": "liam_anchor",
+     "from_dept": "Executive Suite",
+     "to_dept": "Executive Suite",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 121408,
+     "utc": "2046-05-11T07:50:16",
+     "from": "liam_anchor",
+     "to": "mia_fender",
+     "from_dept": "Executive Suite",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 121792,
+     "utc": "2046-05-11T09:09:44",
+     "from": "mia_fender",
+     "to": "victoria_rigging",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Property Ops Console",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 122058,
+     "utc": "2046-05-11T10:06:40",
+     "from": "victoria_rigging",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 122268,
+     "utc": "2046-05-11T10:28:08",
+     "from": "olivia_keel",
+     "to": "olivia_keel",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 122304,
+     "utc": "2046-05-11T10:32:48",
+     "from": "olivia_keel",
+     "to": "chloe_ballast",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 122397,
+     "utc": "2046-05-11T10:52:28",
+     "from": "chloe_ballast",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": null,
+     "to_team": "Hiring"
+    },
+    {
+     "id": 122999,
+     "utc": "2046-05-11T12:46:22",
+     "from": "daniel_gangway",
+     "to": "liam_anchor",
+     "from_dept": "Human Resources",
+     "to_dept": "Executive Suite",
+     "from_team": "Hiring",
+     "to_team": null
+    },
+    {
+     "id": 123088,
+     "utc": "2046-05-11T13:03:30",
+     "from": "liam_anchor",
+     "to": "john_windward",
+     "from_dept": "Executive Suite",
+     "to_dept": "Customer Support",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 123340,
+     "utc": "2046-05-11T13:45:38",
+     "from": "john_windward",
+     "to": "owen_hatch",
+     "from_dept": "Customer Support",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 123750,
+     "utc": "2046-05-11T15:04:08",
+     "from": "owen_hatch",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 126278,
+     "utc": "2046-05-11T16:07:22",
+     "from": "levi_signal",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 133171,
+     "utc": "2046-05-11T16:35:40",
+     "from": "chloe_ballast",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 149838,
+     "utc": "2046-05-11T17:44:38",
+     "from": "mia_fender",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 172346,
+     "utc": "2046-05-11T19:17:24",
+     "from": "evelyn_dock",
+     "to": "gabriel_sonar",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 190443,
+     "utc": "2046-05-11T20:31:44",
+     "from": "gabriel_sonar",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 192660,
+     "utc": "2046-05-11T20:41:09",
+     "from": "zoey_drydock",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 209675,
+     "utc": "2046-05-11T22:18:48",
+     "from": "evelyn_dock",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 210118,
+     "utc": "2046-05-12T00:16:25",
+     "from": "levi_signal",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 210394,
+     "utc": "2046-05-12T01:35:04",
+     "from": "liam_anchor",
+     "to": "levi_signal",
+     "from_dept": "Executive Suite",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 210651,
+     "utc": "2046-05-12T03:00:32",
+     "from": "levi_signal",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 210817,
+     "utc": "2046-05-12T03:50:54",
+     "from": "zoey_drydock",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 210938,
+     "utc": "2046-05-12T04:26:44",
+     "from": "zoey_drydock",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 211314,
+     "utc": "2046-05-12T06:10:31",
+     "from": "victoria_rigging",
+     "to": "lily_anchorline",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 211405,
+     "utc": "2046-05-12T06:33:48",
+     "from": "lily_anchorline",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 217879,
+     "utc": "2046-05-12T07:41:10",
+     "from": "gabriel_sonar",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 269983,
+     "utc": "2046-05-12T09:28:57",
+     "from": "levi_signal",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 304495,
+     "utc": "2046-05-12T10:58:51",
+     "from": "olivia_keel",
+     "to": "zoey_drydock",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 307392,
+     "utc": "2046-05-12T11:10:41",
+     "from": "zoey_drydock",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 311422,
+     "utc": "2046-05-12T12:17:04",
+     "from": "gabriel_sonar",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Helpdesk",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 328327,
+     "utc": "2046-05-12T13:28:26",
+     "from": "daniel_gangway",
+     "to": "levi_signal",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 340969,
+     "utc": "2046-05-12T14:59:44",
+     "from": "levi_signal",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 341255,
+     "utc": "2046-05-12T16:27:42",
+     "from": "liam_anchor",
+     "to": "david_breakwater",
+     "from_dept": "Executive Suite",
+     "to_dept": "Legal",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 341502,
+     "utc": "2046-05-12T17:41:07",
+     "from": "david_breakwater",
+     "to": "james_stern",
+     "from_dept": "Legal",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Residential App"
+    },
+    {
+     "id": 341740,
+     "utc": "2046-05-12T18:45:28",
+     "from": "james_stern",
+     "to": "victoria_rigging",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Residential App",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 341766,
+     "utc": "2046-05-12T18:49:16",
+     "from": "victoria_rigging",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 342159,
+     "utc": "2046-05-12T20:02:03",
+     "from": "evelyn_dock",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Integrations",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 342324,
+     "utc": "2046-05-12T20:40:28",
+     "from": "evelyn_dock",
+     "to": "lily_anchorline",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 342701,
+     "utc": "2046-05-12T21:57:15",
+     "from": "lily_anchorline",
+     "to": "michael_capstan",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 342759,
+     "utc": "2046-05-12T22:06:25",
+     "from": "michael_capstan",
+     "to": "evelyn_dock",
+     "from_dept": "Human Resources",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Integrations"
+    },
+    {
+     "id": 343098,
+     "utc": "2046-05-12T23:13:27",
+     "from": "evelyn_dock",
+     "to": "victoria_rigging",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 343511,
+     "utc": "2046-05-13T00:11:46",
+     "from": "victoria_rigging",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 343785,
+     "utc": "2046-05-13T00:56:03",
+     "from": "evelyn_dock",
+     "to": "victoria_rigging",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 344224,
+     "utc": "2046-05-13T02:17:56",
+     "from": "victoria_rigging",
+     "to": "lily_anchorline",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 344720,
+     "utc": "2046-05-13T03:39:27",
+     "from": "lily_anchorline",
+     "to": "lily_anchorline",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 344958,
+     "utc": "2046-05-13T04:20:57",
+     "from": "lily_anchorline",
+     "to": "henry_sail",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Infrastructure",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 345019,
+     "utc": "2046-05-13T04:35:39",
+     "from": "henry_sail",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Analytics Suite",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 345062,
+     "utc": "2046-05-13T04:44:07",
+     "from": "levi_signal",
+     "to": "james_stern",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Residential App"
+    },
+    {
+     "id": 345389,
+     "utc": "2046-05-13T05:48:38",
+     "from": "james_stern",
+     "to": "zoey_drydock",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Residential App",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 345695,
+     "utc": "2046-05-13T06:36:27",
+     "from": "zoey_drydock",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Helpdesk",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 345843,
+     "utc": "2046-05-13T06:55:39",
+     "from": "daniel_gangway",
+     "to": "james_stern",
+     "from_dept": "Human Resources",
+     "to_dept": "Products",
+     "from_team": "Hiring",
+     "to_team": "Residential App"
+    },
+    {
+     "id": 345885,
+     "utc": "2046-05-13T07:03:27",
+     "from": "james_stern",
+     "to": "victoria_rigging",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Residential App",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 346060,
+     "utc": "2046-05-13T07:28:24",
+     "from": "victoria_rigging",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 346234,
+     "utc": "2046-05-13T07:57:13",
+     "from": "gabriel_sonar",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 346371,
+     "utc": "2046-05-13T08:16:36",
+     "from": "zoey_drydock",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 346789,
+     "utc": "2046-05-13T09:33:26",
+     "from": "chloe_ballast",
+     "to": "james_stern",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Residential App"
+    },
+    {
+     "id": 347144,
+     "utc": "2046-05-13T10:33:09",
+     "from": "james_stern",
+     "to": "gabriel_sonar",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Residential App",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 347697,
+     "utc": "2046-05-13T12:03:57",
+     "from": "gabriel_sonar",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 348032,
+     "utc": "2046-05-13T13:12:26",
+     "from": "victoria_rigging",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 348383,
+     "utc": "2046-05-13T14:15:50",
+     "from": "gabriel_sonar",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 348607,
+     "utc": "2046-05-13T14:58:57",
+     "from": "levi_signal",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 348819,
+     "utc": "2046-05-13T15:38:00",
+     "from": "owen_hatch",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 349291,
+     "utc": "2046-05-13T17:02:21",
+     "from": "liam_anchor",
+     "to": "owen_hatch",
+     "from_dept": "Executive Suite",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 349798,
+     "utc": "2046-05-13T18:38:59",
+     "from": "owen_hatch",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 349872,
+     "utc": "2046-05-13T18:52:06",
+     "from": "olivia_keel",
+     "to": "henry_sail",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 350011,
+     "utc": "2046-05-13T19:14:16",
+     "from": "henry_sail",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Analytics Suite",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 350355,
+     "utc": "2046-05-13T20:21:49",
+     "from": "levi_signal",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 351019,
+     "utc": "2046-05-13T22:10:45",
+     "from": "mia_fender",
+     "to": "james_stern",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Residential App"
+    },
+    {
+     "id": 351563,
+     "utc": "2046-05-13T23:47:36",
+     "from": "james_stern",
+     "to": "daniel_gangway",
+     "from_dept": "Products",
+     "to_dept": "Human Resources",
+     "from_team": "Residential App",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 351912,
+     "utc": "2046-05-14T00:49:22",
+     "from": "daniel_gangway",
+     "to": "lily_anchorline",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 352406,
+     "utc": "2046-05-14T02:09:09",
+     "from": "lily_anchorline",
+     "to": "michael_capstan",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 352801,
+     "utc": "2046-05-14T03:22:12",
+     "from": "michael_capstan",
+     "to": "liam_anchor",
+     "from_dept": "Human Resources",
+     "to_dept": "Executive Suite",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 353470,
+     "utc": "2046-05-14T05:06:36",
+     "from": "liam_anchor",
+     "to": "michael_capstan",
+     "from_dept": "Executive Suite",
+     "to_dept": "Human Resources",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 353931,
+     "utc": "2046-05-14T06:18:49",
+     "from": "michael_capstan",
+     "to": "liam_anchor",
+     "from_dept": "Human Resources",
+     "to_dept": "Executive Suite",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 354067,
+     "utc": "2046-05-14T06:48:51",
+     "from": "liam_anchor",
+     "to": "owen_hatch",
+     "from_dept": "Executive Suite",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 354624,
+     "utc": "2046-05-14T08:25:27",
+     "from": "owen_hatch",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 354895,
+     "utc": "2046-05-14T09:11:51",
+     "from": "chloe_ballast",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 355362,
+     "utc": "2046-05-14T10:37:11",
+     "from": "chloe_ballast",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 355483,
+     "utc": "2046-05-14T10:55:33",
+     "from": "zoey_drydock",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 356087,
+     "utc": "2046-05-14T12:48:23",
+     "from": "olivia_keel",
+     "to": "mia_fender",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 356392,
+     "utc": "2046-05-14T13:37:23",
+     "from": "mia_fender",
+     "to": "mia_fender",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 356784,
+     "utc": "2046-05-14T14:57:39",
+     "from": "mia_fender",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 356936,
+     "utc": "2046-05-14T15:21:49",
+     "from": "evelyn_dock",
+     "to": "gabriel_sonar",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 356995,
+     "utc": "2046-05-14T15:33:58",
+     "from": "gabriel_sonar",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 357152,
+     "utc": "2046-05-14T16:03:02",
+     "from": "levi_signal",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 357362,
+     "utc": "2046-05-14T16:35:00",
+     "from": "owen_hatch",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 357996,
+     "utc": "2046-05-14T18:25:10",
+     "from": "levi_signal",
+     "to": "victoria_rigging",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 358243,
+     "utc": "2046-05-14T19:05:02",
+     "from": "victoria_rigging",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 358563,
+     "utc": "2046-05-14T20:06:55",
+     "from": "evelyn_dock",
+     "to": "chloe_ballast",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": null
+    },
+    {
+     "id": 361089,
+     "utc": "2046-05-14T21:54:09",
+     "from": "chloe_ballast",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 361265,
+     "utc": "2046-05-14T22:47:26",
+     "from": "mia_fender",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Property Ops Console",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 361303,
+     "utc": "2046-05-14T22:57:54",
+     "from": "levi_signal",
+     "to": "chloe_ballast",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": null
+    },
+    {
+     "id": 361444,
+     "utc": "2046-05-14T23:34:01",
+     "from": "chloe_ballast",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 361644,
+     "utc": "2046-05-15T00:34:16",
+     "from": "liam_anchor",
+     "to": "james_stern",
+     "from_dept": "Executive Suite",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Residential App"
+    },
+    {
+     "id": 361958,
+     "utc": "2046-05-15T02:04:01",
+     "from": "james_stern",
+     "to": "gabriel_sonar",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Residential App",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 362358,
+     "utc": "2046-05-15T03:45:11",
+     "from": "gabriel_sonar",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 362619,
+     "utc": "2046-05-15T04:52:56",
+     "from": "gabriel_sonar",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 362878,
+     "utc": "2046-05-15T06:02:20",
+     "from": "zoey_drydock",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 363298,
+     "utc": "2046-05-15T07:56:29",
+     "from": "evelyn_dock",
+     "to": "evelyn_dock",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Integrations",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 363323,
+     "utc": "2046-05-15T08:01:50",
+     "from": "evelyn_dock",
+     "to": "henry_sail",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Integrations",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 363751,
+     "utc": "2046-05-15T09:59:44",
+     "from": "henry_sail",
+     "to": "olivia_keel",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Analytics Suite",
+     "to_team": null
+    },
+    {
+     "id": 363863,
+     "utc": "2046-05-15T10:31:01",
+     "from": "olivia_keel",
+     "to": "owen_hatch",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 363937,
+     "utc": "2046-05-15T10:48:39",
+     "from": "owen_hatch",
+     "to": "david_breakwater",
+     "from_dept": "Information Technologies",
+     "to_dept": "Legal",
+     "from_team": "Infrastructure",
+     "to_team": null
+    },
+    {
+     "id": 364121,
+     "utc": "2046-05-15T11:40:04",
+     "from": "david_breakwater",
+     "to": "olivia_keel",
+     "from_dept": "Legal",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 364377,
+     "utc": "2046-05-15T12:42:32",
+     "from": "olivia_keel",
+     "to": "john_windward",
+     "from_dept": "Products",
+     "to_dept": "Customer Support",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 364604,
+     "utc": "2046-05-15T13:34:50",
+     "from": "john_windward",
+     "to": "john_windward",
+     "from_dept": "Customer Support",
+     "to_dept": "Customer Support",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 364912,
+     "utc": "2046-05-15T14:53:46",
+     "from": "john_windward",
+     "to": "gabriel_sonar",
+     "from_dept": "Customer Support",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 365187,
+     "utc": "2046-05-15T16:05:51",
+     "from": "gabriel_sonar",
+     "to": "henry_sail",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 365421,
+     "utc": "2046-05-15T17:21:35",
+     "from": "henry_sail",
+     "to": "henry_sail",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Analytics Suite",
+     "to_team": "Analytics Suite"
+    },
+    {
+     "id": 365743,
+     "utc": "2046-05-15T18:45:55",
+     "from": "henry_sail",
+     "to": "zoey_drydock",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Analytics Suite",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 365934,
+     "utc": "2046-05-15T19:34:46",
+     "from": "zoey_drydock",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Helpdesk",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 366207,
+     "utc": "2046-05-15T20:51:54",
+     "from": "daniel_gangway",
+     "to": "gabriel_sonar",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 366385,
+     "utc": "2046-05-15T21:36:00",
+     "from": "gabriel_sonar",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Helpdesk",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 366616,
+     "utc": "2046-05-15T22:44:38",
+     "from": "daniel_gangway",
+     "to": "zoey_drydock",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 366880,
+     "utc": "2046-05-15T23:51:59",
+     "from": "zoey_drydock",
+     "to": "liam_anchor",
+     "from_dept": "Information Technologies",
+     "to_dept": "Executive Suite",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 367149,
+     "utc": "2046-05-16T01:01:55",
+     "from": "liam_anchor",
+     "to": "david_breakwater",
+     "from_dept": "Executive Suite",
+     "to_dept": "Legal",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 367253,
+     "utc": "2046-05-16T01:22:34",
+     "from": "david_breakwater",
+     "to": "lily_anchorline",
+     "from_dept": "Legal",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 367310,
+     "utc": "2046-05-16T01:38:24",
+     "from": "lily_anchorline",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Infrastructure",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 367490,
+     "utc": "2046-05-16T02:27:10",
+     "from": "evelyn_dock",
+     "to": "owen_hatch",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 367975,
+     "utc": "2046-05-16T04:17:22",
+     "from": "owen_hatch",
+     "to": "gabriel_sonar",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 368034,
+     "utc": "2046-05-16T04:32:29",
+     "from": "gabriel_sonar",
+     "to": "olivia_keel",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": null
+    },
+    {
+     "id": 368308,
+     "utc": "2046-05-16T05:49:11",
+     "from": "olivia_keel",
+     "to": "owen_hatch",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": null,
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 368685,
+     "utc": "2046-05-16T07:30:09",
+     "from": "owen_hatch",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Infrastructure",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 368876,
+     "utc": "2046-05-16T08:21:23",
+     "from": "daniel_gangway",
+     "to": "lily_anchorline",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 369026,
+     "utc": "2046-05-16T08:53:59",
+     "from": "lily_anchorline",
+     "to": "levi_signal",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Infrastructure",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 369090,
+     "utc": "2046-05-16T09:17:49",
+     "from": "levi_signal",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 369250,
+     "utc": "2046-05-16T10:14:04",
+     "from": "evelyn_dock",
+     "to": "victoria_rigging",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 369502,
+     "utc": "2046-05-16T11:30:03",
+     "from": "victoria_rigging",
+     "to": "owen_hatch",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 369656,
+     "utc": "2046-05-16T12:18:10",
+     "from": "owen_hatch",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Infrastructure",
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 369812,
+     "utc": "2046-05-16T13:10:26",
+     "from": "mia_fender",
+     "to": "levi_signal",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Property Ops Console",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 369837,
+     "utc": "2046-05-16T13:19:28",
+     "from": "levi_signal",
+     "to": "evelyn_dock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "AI Systems",
+     "to_team": "Integrations"
+    },
+    {
+     "id": 370227,
+     "utc": "2046-05-16T15:16:16",
+     "from": "evelyn_dock",
+     "to": "chloe_ballast",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Integrations",
+     "to_team": null
+    },
+    {
+     "id": 370548,
+     "utc": "2046-05-16T16:54:38",
+     "from": "chloe_ballast",
+     "to": "michael_capstan",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 370916,
+     "utc": "2046-05-16T18:51:51",
+     "from": "michael_capstan",
+     "to": "michael_capstan",
+     "from_dept": "Human Resources",
+     "to_dept": "Human Resources",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 371331,
+     "utc": "2046-05-16T20:50:01",
+     "from": "michael_capstan",
+     "to": "michael_capstan",
+     "from_dept": "Human Resources",
+     "to_dept": "Human Resources",
+     "from_team": null,
+     "to_team": null
+    },
+    {
+     "id": 371557,
+     "utc": "2046-05-16T22:28:45",
+     "from": "michael_capstan",
+     "to": "mia_fender",
+     "from_dept": "Human Resources",
+     "to_dept": "Products",
+     "from_team": null,
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 371890,
+     "utc": "2046-05-16T23:48:45",
+     "from": "mia_fender",
+     "to": "james_stern",
+     "from_dept": "Products",
+     "to_dept": "Products",
+     "from_team": "Property Ops Console",
+     "to_team": "Residential App"
+    },
+    {
+     "id": 372157,
+     "utc": "2046-05-17T00:51:43",
+     "from": "james_stern",
+     "to": "gabriel_sonar",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Residential App",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 372473,
+     "utc": "2046-05-17T02:26:11",
+     "from": "gabriel_sonar",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Helpdesk",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 372821,
+     "utc": "2046-05-17T04:12:32",
+     "from": "daniel_gangway",
+     "to": "zoey_drydock",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 373064,
+     "utc": "2046-05-17T05:34:32",
+     "from": "zoey_drydock",
+     "to": "mia_fender",
+     "from_dept": "Information Technologies",
+     "to_dept": "Products",
+     "from_team": "Helpdesk",
+     "to_team": "Property Ops Console"
+    },
+    {
+     "id": 373130,
+     "utc": "2046-05-17T05:52:51",
+     "from": "mia_fender",
+     "to": "victoria_rigging",
+     "from_dept": "Products",
+     "to_dept": "Information Technologies",
+     "from_team": "Property Ops Console",
+     "to_team": "AI Systems"
+    },
+    {
+     "id": 373282,
+     "utc": "2046-05-17T06:44:28",
+     "from": "victoria_rigging",
+     "to": "zoey_drydock",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "AI Systems",
+     "to_team": "Helpdesk"
+    },
+    {
+     "id": 373635,
+     "utc": "2046-05-17T08:16:07",
+     "from": "zoey_drydock",
+     "to": "lily_anchorline",
+     "from_dept": "Information Technologies",
+     "to_dept": "Information Technologies",
+     "from_team": "Helpdesk",
+     "to_team": "Infrastructure"
+    },
+    {
+     "id": 373831,
+     "utc": "2046-05-17T10:11:31",
+     "from": "lily_anchorline",
+     "to": "daniel_gangway",
+     "from_dept": "Information Technologies",
+     "to_dept": "Human Resources",
+     "from_team": "Infrastructure",
+     "to_team": "Hiring"
+    },
+    {
+     "id": 373882,
+     "utc": "2046-05-17T11:12:24",
+     "from": "daniel_gangway",
+     "to": "chloe_ballast",
+     "from_dept": "Human Resources",
+     "to_dept": "Information Technologies",
+     "from_team": "Hiring",
+     "to_team": null
+    },
+    {
+     "id": 373893,
+     "utc": "2046-05-17T11:21:13",
+     "from": "chloe_ballast",
+     "to": "john_windward",
+     "from_dept": "Information Technologies",
+     "to_dept": "Customer Support",
+     "from_team": null,
+     "to_team": null
+    }
+   ],
+   "cum": [
+    {
+     "id": 21209,
+     "utc": "2046-05-09T15:02:03",
+     "cum_agents": 2
+    },
+    {
+     "id": 21882,
+     "utc": "2046-05-09T16:52:13",
+     "cum_agents": 3
+    },
+    {
+     "id": 22234,
+     "utc": "2046-05-09T17:56:48",
+     "cum_agents": 4
+    },
+    {
+     "id": 22642,
+     "utc": "2046-05-09T19:21:15",
+     "cum_agents": 5
+    },
+    {
+     "id": 22644,
+     "utc": "2046-05-09T19:22:16",
+     "cum_agents": 6
+    },
+    {
+     "id": 23869,
+     "utc": "2046-05-09T20:54:23",
+     "cum_agents": 7
+    },
+    {
+     "id": 24188,
+     "utc": "2046-05-09T22:13:40",
+     "cum_agents": 7
+    },
+    {
+     "id": 24332,
+     "utc": "2046-05-09T22:57:39",
+     "cum_agents": 7
+    },
+    {
+     "id": 24629,
+     "utc": "2046-05-10T00:18:06",
+     "cum_agents": 7
+    },
+    {
+     "id": 25009,
+     "utc": "2046-05-10T02:05:42",
+     "cum_agents": 8
+    },
+    {
+     "id": 25341,
+     "utc": "2046-05-10T03:43:36",
+     "cum_agents": 8
+    },
+    {
+     "id": 25600,
+     "utc": "2046-05-10T04:56:09",
+     "cum_agents": 9
+    },
+    {
+     "id": 25681,
+     "utc": "2046-05-10T05:17:59",
+     "cum_agents": 10
+    },
+    {
+     "id": 25905,
+     "utc": "2046-05-10T06:18:25",
+     "cum_agents": 10
+    },
+    {
+     "id": 25933,
+     "utc": "2046-05-10T06:31:17",
+     "cum_agents": 10
+    },
+    {
+     "id": 26154,
+     "utc": "2046-05-10T07:35:30",
+     "cum_agents": 10
+    },
+    {
+     "id": 26552,
+     "utc": "2046-05-10T09:29:25",
+     "cum_agents": 10
+    },
+    {
+     "id": 26819,
+     "utc": "2046-05-10T10:46:09",
+     "cum_agents": 10
+    },
+    {
+     "id": 27091,
+     "utc": "2046-05-10T12:00:12",
+     "cum_agents": 10
+    },
+    {
+     "id": 27220,
+     "utc": "2046-05-10T12:34:11",
+     "cum_agents": 11
+    },
+    {
+     "id": 27502,
+     "utc": "2046-05-10T13:44:59",
+     "cum_agents": 11
+    },
+    {
+     "id": 27850,
+     "utc": "2046-05-10T15:34:46",
+     "cum_agents": 11
+    },
+    {
+     "id": 27935,
+     "utc": "2046-05-10T16:04:14",
+     "cum_agents": 11
+    },
+    {
+     "id": 28308,
+     "utc": "2046-05-10T17:38:22",
+     "cum_agents": 12
+    },
+    {
+     "id": 28404,
+     "utc": "2046-05-10T17:59:19",
+     "cum_agents": 12
+    },
+    {
+     "id": 28603,
+     "utc": "2046-05-10T18:48:40",
+     "cum_agents": 13
+    },
+    {
+     "id": 28793,
+     "utc": "2046-05-10T19:37:29",
+     "cum_agents": 13
+    },
+    {
+     "id": 46396,
+     "utc": "2046-05-10T21:22:27",
+     "cum_agents": 14
+    },
+    {
+     "id": 59126,
+     "utc": "2046-05-10T22:14:56",
+     "cum_agents": 14
+    },
+    {
+     "id": 82635,
+     "utc": "2046-05-10T23:50:24",
+     "cum_agents": 15
+    },
+    {
+     "id": 85342,
+     "utc": "2046-05-11T00:01:28",
+     "cum_agents": 15
+    },
+    {
+     "id": 86741,
+     "utc": "2046-05-11T00:07:05",
+     "cum_agents": 15
+    },
+    {
+     "id": 110012,
+     "utc": "2046-05-11T01:42:45",
+     "cum_agents": 16
+    },
+    {
+     "id": 119716,
+     "utc": "2046-05-11T03:05:50",
+     "cum_agents": 16
+    },
+    {
+     "id": 119921,
+     "utc": "2046-05-11T03:45:54",
+     "cum_agents": 16
+    },
+    {
+     "id": 119950,
+     "utc": "2046-05-11T03:52:03",
+     "cum_agents": 16
+    },
+    {
+     "id": 120525,
+     "utc": "2046-05-11T05:23:50",
+     "cum_agents": 16
+    },
+    {
+     "id": 120761,
+     "utc": "2046-05-11T05:59:44",
+     "cum_agents": 16
+    },
+    {
+     "id": 120942,
+     "utc": "2046-05-11T06:35:27",
+     "cum_agents": 16
+    },
+    {
+     "id": 121211,
+     "utc": "2046-05-11T07:12:47",
+     "cum_agents": 16
+    },
+    {
+     "id": 121408,
+     "utc": "2046-05-11T07:50:16",
+     "cum_agents": 16
+    },
+    {
+     "id": 121792,
+     "utc": "2046-05-11T09:09:44",
+     "cum_agents": 16
+    },
+    {
+     "id": 122058,
+     "utc": "2046-05-11T10:06:40",
+     "cum_agents": 16
+    },
+    {
+     "id": 122268,
+     "utc": "2046-05-11T10:28:08",
+     "cum_agents": 16
+    },
+    {
+     "id": 122304,
+     "utc": "2046-05-11T10:32:48",
+     "cum_agents": 16
+    },
+    {
+     "id": 122397,
+     "utc": "2046-05-11T10:52:28",
+     "cum_agents": 16
+    },
+    {
+     "id": 122999,
+     "utc": "2046-05-11T12:46:22",
+     "cum_agents": 16
+    },
+    {
+     "id": 123088,
+     "utc": "2046-05-11T13:03:30",
+     "cum_agents": 16
+    },
+    {
+     "id": 123340,
+     "utc": "2046-05-11T13:45:38",
+     "cum_agents": 16
+    },
+    {
+     "id": 123750,
+     "utc": "2046-05-11T15:04:08",
+     "cum_agents": 16
+    },
+    {
+     "id": 126278,
+     "utc": "2046-05-11T16:07:22",
+     "cum_agents": 16
+    },
+    {
+     "id": 133171,
+     "utc": "2046-05-11T16:35:40",
+     "cum_agents": 16
+    },
+    {
+     "id": 149838,
+     "utc": "2046-05-11T17:44:38",
+     "cum_agents": 16
+    },
+    {
+     "id": 172346,
+     "utc": "2046-05-11T19:17:24",
+     "cum_agents": 16
+    },
+    {
+     "id": 190443,
+     "utc": "2046-05-11T20:31:44",
+     "cum_agents": 16
+    },
+    {
+     "id": 192660,
+     "utc": "2046-05-11T20:41:09",
+     "cum_agents": 16
+    },
+    {
+     "id": 209675,
+     "utc": "2046-05-11T22:18:48",
+     "cum_agents": 16
+    },
+    {
+     "id": 210118,
+     "utc": "2046-05-12T00:16:25",
+     "cum_agents": 16
+    },
+    {
+     "id": 210394,
+     "utc": "2046-05-12T01:35:04",
+     "cum_agents": 16
+    },
+    {
+     "id": 210651,
+     "utc": "2046-05-12T03:00:32",
+     "cum_agents": 16
+    },
+    {
+     "id": 210817,
+     "utc": "2046-05-12T03:50:54",
+     "cum_agents": 16
+    },
+    {
+     "id": 210938,
+     "utc": "2046-05-12T04:26:44",
+     "cum_agents": 16
+    },
+    {
+     "id": 211314,
+     "utc": "2046-05-12T06:10:31",
+     "cum_agents": 16
+    },
+    {
+     "id": 211405,
+     "utc": "2046-05-12T06:33:48",
+     "cum_agents": 16
+    },
+    {
+     "id": 217879,
+     "utc": "2046-05-12T07:41:10",
+     "cum_agents": 16
+    },
+    {
+     "id": 269983,
+     "utc": "2046-05-12T09:28:57",
+     "cum_agents": 16
+    },
+    {
+     "id": 304495,
+     "utc": "2046-05-12T10:58:51",
+     "cum_agents": 16
+    },
+    {
+     "id": 307392,
+     "utc": "2046-05-12T11:10:41",
+     "cum_agents": 16
+    },
+    {
+     "id": 311422,
+     "utc": "2046-05-12T12:17:04",
+     "cum_agents": 16
+    },
+    {
+     "id": 328327,
+     "utc": "2046-05-12T13:28:26",
+     "cum_agents": 16
+    },
+    {
+     "id": 340969,
+     "utc": "2046-05-12T14:59:44",
+     "cum_agents": 16
+    },
+    {
+     "id": 341255,
+     "utc": "2046-05-12T16:27:42",
+     "cum_agents": 16
+    },
+    {
+     "id": 341502,
+     "utc": "2046-05-12T17:41:07",
+     "cum_agents": 17
+    },
+    {
+     "id": 341740,
+     "utc": "2046-05-12T18:45:28",
+     "cum_agents": 17
+    },
+    {
+     "id": 341766,
+     "utc": "2046-05-12T18:49:16",
+     "cum_agents": 17
+    },
+    {
+     "id": 342159,
+     "utc": "2046-05-12T20:02:03",
+     "cum_agents": 17
+    },
+    {
+     "id": 342324,
+     "utc": "2046-05-12T20:40:28",
+     "cum_agents": 17
+    },
+    {
+     "id": 342701,
+     "utc": "2046-05-12T21:57:15",
+     "cum_agents": 18
+    },
+    {
+     "id": 342759,
+     "utc": "2046-05-12T22:06:25",
+     "cum_agents": 18
+    },
+    {
+     "id": 343098,
+     "utc": "2046-05-12T23:13:27",
+     "cum_agents": 18
+    },
+    {
+     "id": 343511,
+     "utc": "2046-05-13T00:11:46",
+     "cum_agents": 18
+    },
+    {
+     "id": 343785,
+     "utc": "2046-05-13T00:56:03",
+     "cum_agents": 18
+    },
+    {
+     "id": 344224,
+     "utc": "2046-05-13T02:17:56",
+     "cum_agents": 18
+    },
+    {
+     "id": 344720,
+     "utc": "2046-05-13T03:39:27",
+     "cum_agents": 18
+    },
+    {
+     "id": 344958,
+     "utc": "2046-05-13T04:20:57",
+     "cum_agents": 18
+    },
+    {
+     "id": 345019,
+     "utc": "2046-05-13T04:35:39",
+     "cum_agents": 18
+    },
+    {
+     "id": 345062,
+     "utc": "2046-05-13T04:44:07",
+     "cum_agents": 18
+    },
+    {
+     "id": 345389,
+     "utc": "2046-05-13T05:48:38",
+     "cum_agents": 18
+    },
+    {
+     "id": 345695,
+     "utc": "2046-05-13T06:36:27",
+     "cum_agents": 18
+    },
+    {
+     "id": 345843,
+     "utc": "2046-05-13T06:55:39",
+     "cum_agents": 18
+    },
+    {
+     "id": 345885,
+     "utc": "2046-05-13T07:03:27",
+     "cum_agents": 18
+    },
+    {
+     "id": 346060,
+     "utc": "2046-05-13T07:28:24",
+     "cum_agents": 18
+    },
+    {
+     "id": 346234,
+     "utc": "2046-05-13T07:57:13",
+     "cum_agents": 18
+    },
+    {
+     "id": 346371,
+     "utc": "2046-05-13T08:16:36",
+     "cum_agents": 18
+    },
+    {
+     "id": 346789,
+     "utc": "2046-05-13T09:33:26",
+     "cum_agents": 18
+    },
+    {
+     "id": 347144,
+     "utc": "2046-05-13T10:33:09",
+     "cum_agents": 18
+    },
+    {
+     "id": 347697,
+     "utc": "2046-05-13T12:03:57",
+     "cum_agents": 18
+    },
+    {
+     "id": 348032,
+     "utc": "2046-05-13T13:12:26",
+     "cum_agents": 18
+    },
+    {
+     "id": 348383,
+     "utc": "2046-05-13T14:15:50",
+     "cum_agents": 18
+    },
+    {
+     "id": 348607,
+     "utc": "2046-05-13T14:58:57",
+     "cum_agents": 18
+    },
+    {
+     "id": 348819,
+     "utc": "2046-05-13T15:38:00",
+     "cum_agents": 18
+    },
+    {
+     "id": 349291,
+     "utc": "2046-05-13T17:02:21",
+     "cum_agents": 18
+    },
+    {
+     "id": 349798,
+     "utc": "2046-05-13T18:38:59",
+     "cum_agents": 18
+    },
+    {
+     "id": 349872,
+     "utc": "2046-05-13T18:52:06",
+     "cum_agents": 18
+    },
+    {
+     "id": 350011,
+     "utc": "2046-05-13T19:14:16",
+     "cum_agents": 18
+    },
+    {
+     "id": 350355,
+     "utc": "2046-05-13T20:21:49",
+     "cum_agents": 18
+    },
+    {
+     "id": 351019,
+     "utc": "2046-05-13T22:10:45",
+     "cum_agents": 18
+    },
+    {
+     "id": 351563,
+     "utc": "2046-05-13T23:47:36",
+     "cum_agents": 18
+    },
+    {
+     "id": 351912,
+     "utc": "2046-05-14T00:49:22",
+     "cum_agents": 18
+    },
+    {
+     "id": 352406,
+     "utc": "2046-05-14T02:09:09",
+     "cum_agents": 18
+    },
+    {
+     "id": 352801,
+     "utc": "2046-05-14T03:22:12",
+     "cum_agents": 18
+    },
+    {
+     "id": 353470,
+     "utc": "2046-05-14T05:06:36",
+     "cum_agents": 18
+    },
+    {
+     "id": 353931,
+     "utc": "2046-05-14T06:18:49",
+     "cum_agents": 18
+    },
+    {
+     "id": 354067,
+     "utc": "2046-05-14T06:48:51",
+     "cum_agents": 18
+    },
+    {
+     "id": 354624,
+     "utc": "2046-05-14T08:25:27",
+     "cum_agents": 18
+    },
+    {
+     "id": 354895,
+     "utc": "2046-05-14T09:11:51",
+     "cum_agents": 18
+    },
+    {
+     "id": 355362,
+     "utc": "2046-05-14T10:37:11",
+     "cum_agents": 18
+    },
+    {
+     "id": 355483,
+     "utc": "2046-05-14T10:55:33",
+     "cum_agents": 18
+    },
+    {
+     "id": 356087,
+     "utc": "2046-05-14T12:48:23",
+     "cum_agents": 18
+    },
+    {
+     "id": 356392,
+     "utc": "2046-05-14T13:37:23",
+     "cum_agents": 18
+    },
+    {
+     "id": 356784,
+     "utc": "2046-05-14T14:57:39",
+     "cum_agents": 18
+    },
+    {
+     "id": 356936,
+     "utc": "2046-05-14T15:21:49",
+     "cum_agents": 18
+    },
+    {
+     "id": 356995,
+     "utc": "2046-05-14T15:33:58",
+     "cum_agents": 18
+    },
+    {
+     "id": 357152,
+     "utc": "2046-05-14T16:03:02",
+     "cum_agents": 18
+    },
+    {
+     "id": 357362,
+     "utc": "2046-05-14T16:35:00",
+     "cum_agents": 18
+    },
+    {
+     "id": 357996,
+     "utc": "2046-05-14T18:25:10",
+     "cum_agents": 18
+    },
+    {
+     "id": 358243,
+     "utc": "2046-05-14T19:05:02",
+     "cum_agents": 18
+    },
+    {
+     "id": 358563,
+     "utc": "2046-05-14T20:06:55",
+     "cum_agents": 18
+    },
+    {
+     "id": 361089,
+     "utc": "2046-05-14T21:54:09",
+     "cum_agents": 18
+    },
+    {
+     "id": 361265,
+     "utc": "2046-05-14T22:47:26",
+     "cum_agents": 18
+    },
+    {
+     "id": 361303,
+     "utc": "2046-05-14T22:57:54",
+     "cum_agents": 18
+    },
+    {
+     "id": 361444,
+     "utc": "2046-05-14T23:34:01",
+     "cum_agents": 18
+    },
+    {
+     "id": 361644,
+     "utc": "2046-05-15T00:34:16",
+     "cum_agents": 18
+    },
+    {
+     "id": 361958,
+     "utc": "2046-05-15T02:04:01",
+     "cum_agents": 18
+    },
+    {
+     "id": 362358,
+     "utc": "2046-05-15T03:45:11",
+     "cum_agents": 18
+    },
+    {
+     "id": 362619,
+     "utc": "2046-05-15T04:52:56",
+     "cum_agents": 18
+    },
+    {
+     "id": 362878,
+     "utc": "2046-05-15T06:02:20",
+     "cum_agents": 18
+    },
+    {
+     "id": 363298,
+     "utc": "2046-05-15T07:56:29",
+     "cum_agents": 18
+    },
+    {
+     "id": 363323,
+     "utc": "2046-05-15T08:01:50",
+     "cum_agents": 18
+    },
+    {
+     "id": 363751,
+     "utc": "2046-05-15T09:59:44",
+     "cum_agents": 18
+    },
+    {
+     "id": 363863,
+     "utc": "2046-05-15T10:31:01",
+     "cum_agents": 18
+    },
+    {
+     "id": 363937,
+     "utc": "2046-05-15T10:48:39",
+     "cum_agents": 18
+    },
+    {
+     "id": 364121,
+     "utc": "2046-05-15T11:40:04",
+     "cum_agents": 18
+    },
+    {
+     "id": 364377,
+     "utc": "2046-05-15T12:42:32",
+     "cum_agents": 18
+    },
+    {
+     "id": 364604,
+     "utc": "2046-05-15T13:34:50",
+     "cum_agents": 18
+    },
+    {
+     "id": 364912,
+     "utc": "2046-05-15T14:53:46",
+     "cum_agents": 18
+    },
+    {
+     "id": 365187,
+     "utc": "2046-05-15T16:05:51",
+     "cum_agents": 18
+    },
+    {
+     "id": 365421,
+     "utc": "2046-05-15T17:21:35",
+     "cum_agents": 18
+    },
+    {
+     "id": 365743,
+     "utc": "2046-05-15T18:45:55",
+     "cum_agents": 18
+    },
+    {
+     "id": 365934,
+     "utc": "2046-05-15T19:34:46",
+     "cum_agents": 18
+    },
+    {
+     "id": 366207,
+     "utc": "2046-05-15T20:51:54",
+     "cum_agents": 18
+    },
+    {
+     "id": 366385,
+     "utc": "2046-05-15T21:36:00",
+     "cum_agents": 18
+    },
+    {
+     "id": 366616,
+     "utc": "2046-05-15T22:44:38",
+     "cum_agents": 18
+    },
+    {
+     "id": 366880,
+     "utc": "2046-05-15T23:51:59",
+     "cum_agents": 18
+    },
+    {
+     "id": 367149,
+     "utc": "2046-05-16T01:01:55",
+     "cum_agents": 18
+    },
+    {
+     "id": 367253,
+     "utc": "2046-05-16T01:22:34",
+     "cum_agents": 18
+    },
+    {
+     "id": 367310,
+     "utc": "2046-05-16T01:38:24",
+     "cum_agents": 18
+    },
+    {
+     "id": 367490,
+     "utc": "2046-05-16T02:27:10",
+     "cum_agents": 18
+    },
+    {
+     "id": 367975,
+     "utc": "2046-05-16T04:17:22",
+     "cum_agents": 18
+    },
+    {
+     "id": 368034,
+     "utc": "2046-05-16T04:32:29",
+     "cum_agents": 18
+    },
+    {
+     "id": 368308,
+     "utc": "2046-05-16T05:49:11",
+     "cum_agents": 18
+    },
+    {
+     "id": 368685,
+     "utc": "2046-05-16T07:30:09",
+     "cum_agents": 18
+    },
+    {
+     "id": 368876,
+     "utc": "2046-05-16T08:21:23",
+     "cum_agents": 18
+    },
+    {
+     "id": 369026,
+     "utc": "2046-05-16T08:53:59",
+     "cum_agents": 18
+    },
+    {
+     "id": 369090,
+     "utc": "2046-05-16T09:17:49",
+     "cum_agents": 18
+    },
+    {
+     "id": 369250,
+     "utc": "2046-05-16T10:14:04",
+     "cum_agents": 18
+    },
+    {
+     "id": 369502,
+     "utc": "2046-05-16T11:30:03",
+     "cum_agents": 18
+    },
+    {
+     "id": 369656,
+     "utc": "2046-05-16T12:18:10",
+     "cum_agents": 18
+    },
+    {
+     "id": 369812,
+     "utc": "2046-05-16T13:10:26",
+     "cum_agents": 18
+    },
+    {
+     "id": 369837,
+     "utc": "2046-05-16T13:19:28",
+     "cum_agents": 18
+    },
+    {
+     "id": 370227,
+     "utc": "2046-05-16T15:16:16",
+     "cum_agents": 18
+    },
+    {
+     "id": 370548,
+     "utc": "2046-05-16T16:54:38",
+     "cum_agents": 18
+    },
+    {
+     "id": 370916,
+     "utc": "2046-05-16T18:51:51",
+     "cum_agents": 18
+    },
+    {
+     "id": 371331,
+     "utc": "2046-05-16T20:50:01",
+     "cum_agents": 18
+    },
+    {
+     "id": 371557,
+     "utc": "2046-05-16T22:28:45",
+     "cum_agents": 18
+    },
+    {
+     "id": 371890,
+     "utc": "2046-05-16T23:48:45",
+     "cum_agents": 18
+    },
+    {
+     "id": 372157,
+     "utc": "2046-05-17T00:51:43",
+     "cum_agents": 18
+    },
+    {
+     "id": 372473,
+     "utc": "2046-05-17T02:26:11",
+     "cum_agents": 18
+    },
+    {
+     "id": 372821,
+     "utc": "2046-05-17T04:12:32",
+     "cum_agents": 18
+    },
+    {
+     "id": 373064,
+     "utc": "2046-05-17T05:34:32",
+     "cum_agents": 18
+    },
+    {
+     "id": 373130,
+     "utc": "2046-05-17T05:52:51",
+     "cum_agents": 18
+    },
+    {
+     "id": 373282,
+     "utc": "2046-05-17T06:44:28",
+     "cum_agents": 18
+    },
+    {
+     "id": 373635,
+     "utc": "2046-05-17T08:16:07",
+     "cum_agents": 18
+    },
+    {
+     "id": 373831,
+     "utc": "2046-05-17T10:11:31",
+     "cum_agents": 18
+    },
+    {
+     "id": 373882,
+     "utc": "2046-05-17T11:12:24",
+     "cum_agents": 18
+    },
+    {
+     "id": 373893,
+     "utc": "2046-05-17T11:21:13",
+     "cum_agents": 18
+    }
+   ],
+   "per_day": {
+    "2046-05-09": 8,
+    "2046-05-10": 22,
+    "2046-05-11": 27,
+    "2046-05-12": 23,
+    "2046-05-13": 28,
+    "2046-05-14": 24,
+    "2046-05-15": 22,
+    "2046-05-16": 22,
+    "2046-05-17": 10
+   },
+   "dept_flow": [
+    {
+     "from": "Information Technologies",
+     "to": "Information Technologies",
+     "count": 44
+    },
+    {
+     "from": "Products",
+     "to": "Information Technologies",
+     "count": 32
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Products",
+     "count": 28
+    },
+    {
+     "from": "Products",
+     "to": "Products",
+     "count": 19
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Human Resources",
+     "count": 11
+    },
+    {
+     "from": "Human Resources",
+     "to": "Information Technologies",
+     "count": 9
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Executive Suite",
+     "count": 7
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Information Technologies",
+     "count": 4
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Products",
+     "count": 3
+    },
+    {
+     "from": "Products",
+     "to": "Human Resources",
+     "count": 3
+    },
+    {
+     "from": "Customer Support",
+     "to": "Information Technologies",
+     "count": 3
+    },
+    {
+     "from": "Legal",
+     "to": "Products",
+     "count": 3
+    },
+    {
+     "from": "Human Resources",
+     "to": "Executive Suite",
+     "count": 3
+    },
+    {
+     "from": "Human Resources",
+     "to": "Products",
+     "count": 3
+    },
+    {
+     "from": "Products",
+     "to": "Customer Support",
+     "count": 2
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Legal",
+     "count": 2
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Legal",
+     "count": 2
+    },
+    {
+     "from": "Human Resources",
+     "to": "Human Resources",
+     "count": 2
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Executive Suite",
+     "count": 1
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Customer Support",
+     "count": 1
+    },
+    {
+     "from": "Executive Suite",
+     "to": "Human Resources",
+     "count": 1
+    },
+    {
+     "from": "Customer Support",
+     "to": "Customer Support",
+     "count": 1
+    },
+    {
+     "from": "Legal",
+     "to": "Information Technologies",
+     "count": 1
+    },
+    {
+     "from": "Information Technologies",
+     "to": "Customer Support",
+     "count": 1
+    }
+   ],
+   "agent_counts": {
+    "emma_harbor": 1,
+    "evelyn_dock": 34,
+    "chloe_ballast": 26,
+    "mia_fender": 24,
+    "levi_signal": 30,
+    "owen_hatch": 26,
+    "victoria_rigging": 26,
+    "daniel_gangway": 22,
+    "lily_anchorline": 18,
+    "gabriel_sonar": 32,
+    "liam_anchor": 22,
+    "henry_sail": 20,
+    "olivia_keel": 20,
+    "john_windward": 9,
+    "david_breakwater": 8,
+    "zoey_drydock": 28,
+    "james_stern": 14,
+    "michael_capstan": 12
+   },
+   "post_event": 373902,
+   "post_utc": "2046-05-17T11:21:15"
+  }
+ }
+}

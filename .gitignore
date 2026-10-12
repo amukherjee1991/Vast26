@@ -1,5 +1,6 @@
-# Downloaded challenge data — large and reproducible from the challenge repo, not tracked
-data/
+# Downloaded challenge data (repo root only) — large and reproducible from the challenge repo, not tracked.
+# Anchored to root so this doesn't also match app/public/data/, which the deployed site needs.
+/data/
 
 # Python
 .venv/

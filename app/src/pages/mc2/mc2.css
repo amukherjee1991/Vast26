@@ -1,0 +1,497 @@
+@import "../../styles/tokens.css";
+
+/* Tracing SwiftWren — report layout. Page-specific only: shared primitives
+   (.chip, .card, tokens) come from styles/components.css and tokens.css. */
+
+.mc2 {
+  padding-bottom: var(--s-10);
+}
+
+/* ---------- masthead ---------- */
+.mc2-masthead {
+  padding: var(--space-act) var(--gutter) var(--s-6);
+  border-bottom: var(--line) solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+}
+.mc2-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.mc2-masthead h1 {
+  font-size: var(--fs-h1);
+  letter-spacing: -0.01em;
+}
+.mc2-masthead h1 .accent {
+  color: var(--series-3);
+}
+.mc2-dek {
+  max-width: 62ch;
+  font-size: var(--fs-lede);
+  color: var(--ink-2);
+  line-height: 1.55;
+}
+.mc2-meta {
+  display: flex;
+  gap: var(--s-5);
+  flex-wrap: wrap;
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  color: var(--ink-3);
+}
+.mc2-meta b {
+  color: var(--ink-2);
+  font-weight: 600;
+}
+
+/* ---------- stat strip ---------- */
+.mc2-stats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1px;
+  background: var(--rule);
+  border-top: var(--line) solid var(--rule);
+  border-bottom: var(--line) solid var(--rule);
+}
+@media (max-width: 760px) {
+  .mc2-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.mc2-stat {
+  background: var(--cloth);
+  padding: var(--s-4) var(--s-3);
+}
+.mc2-stat .v {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-figure);
+  letter-spacing: -0.01em;
+}
+.mc2-stat .v.breach {
+  color: var(--signal-breach);
+}
+.mc2-stat .v.baseline {
+  color: var(--signal-baseline);
+}
+.mc2-stat .l {
+  font-size: var(--fs-label);
+  color: var(--ink-3);
+  margin-top: 4px;
+  line-height: 1.3;
+}
+
+/* ---------- case nav ---------- */
+.mc2-nav {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 4;
+  background: color-mix(in srgb, var(--ground) 92%, transparent);
+  backdrop-filter: var(--blur-float);
+  border-bottom: var(--line) solid var(--rule);
+}
+.mc2-nav__inner {
+  display: flex;
+  gap: var(--s-1);
+  overflow-x: auto;
+  padding: var(--s-2) var(--gutter);
+  scrollbar-width: none;
+}
+.mc2-nav__inner::-webkit-scrollbar {
+  display: none;
+}
+.mc2-nav a {
+  flex: 0 0 auto;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  text-decoration: none;
+  padding: 7px 11px;
+  border-radius: var(--radius);
+  white-space: nowrap;
+}
+.mc2-nav a:hover {
+  background: var(--swell);
+  color: var(--ink);
+}
+
+/* ---------- case sections ---------- */
+.mc2-case {
+  padding: var(--s-9) var(--gutter) var(--s-4);
+  border-bottom: var(--line) solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-6);
+}
+.mc2-case__head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--s-3);
+}
+.mc2-case__num {
+  font-family: var(--font-mono);
+  color: var(--moon);
+  font-size: var(--fs-body);
+}
+.mc2-case h2 {
+  font-size: var(--fs-h2);
+}
+.mc2-case__q {
+  font-style: italic;
+  color: var(--ink-2);
+  font-size: var(--fs-body);
+  max-width: 62ch;
+  border-left: 2px solid var(--rule);
+  padding-left: var(--s-4);
+}
+.mc2-subcase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+}
+.mc2-subcase h3 {
+  font-size: var(--fs-h3);
+}
+.mc2-subcase h3 .tag {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--fs-small);
+  color: var(--ink-3);
+  margin-right: var(--s-2);
+}
+.mc2-prose {
+  max-width: 68ch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+}
+.mc2-prose p {
+  font-size: var(--fs-body);
+  line-height: 1.62;
+}
+.mc2-prose .ev {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  color: var(--ink-2);
+  background: var(--swell);
+  padding: 1px 5px;
+  border-radius: var(--radius);
+}
+.mc2-confidence {
+  color: var(--ink-2);
+  font-size: var(--fs-small);
+}
+.mc2-confidence b {
+  color: var(--ink);
+}
+
+/* toggle row of .chip buttons used as a worm/segment selector — scoped so
+   the shared .chip primitive gains a pressed state only within this page */
+.mc2-toggle-row {
+  display: flex;
+  gap: var(--s-2);
+  flex-wrap: wrap;
+}
+.mc2 .chip[aria-pressed="true"] {
+  border-color: var(--moon);
+  background: color-mix(in srgb, var(--moon) 16%, var(--swell));
+}
+.mc2 .chip {
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+/* ---------- day strip (Exhibit 1) ---------- */
+.daystrip {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+}
+.daystrip__scroll {
+  overflow-x: auto;
+}
+.daystrip__bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 100px;
+  min-width: 560px;
+}
+.daystrip__col {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.daystrip__bar {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  min-height: 3px;
+  opacity: 0.75;
+  transition: opacity var(--t-ui) var(--ease-out);
+}
+.daystrip__col[aria-pressed="true"] .daystrip__bar,
+.daystrip__col:hover .daystrip__bar {
+  opacity: 1;
+}
+.daystrip__labels {
+  display: flex;
+  gap: 6px;
+  min-width: 560px;
+}
+.daystrip__label {
+  flex: 1;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--ink-3);
+}
+.daystrip__label[data-active="true"] {
+  color: var(--ink);
+}
+.daystrip__label .d {
+  display: block;
+}
+.daystrip__scrub {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+}
+.daystrip__scrub input[type="range"] {
+  flex: 1;
+  accent-color: var(--moon);
+}
+.daystrip__readout {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.daystrip__readout b {
+  color: var(--ink);
+}
+.daystrip__list {
+  margin: 0;
+  padding: var(--s-3) 0 0;
+  border-top: var(--line) solid var(--rule);
+  max-height: 180px;
+  overflow-y: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.daystrip__list li {
+  display: grid;
+  grid-template-columns: 64px 1fr 56px;
+  gap: var(--s-3);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--ink-2);
+}
+.daystrip__list .who b {
+  color: var(--ink);
+  font-weight: 600;
+}
+.daystrip__list .id {
+  color: var(--ink-3);
+  text-align: right;
+}
+
+/* ---------- final burst (Exhibit 3) ---------- */
+.burst__gate {
+  opacity: 0;
+  transition: opacity var(--t-ui) var(--ease-out);
+}
+.burst__gate[data-show="true"] {
+  opacity: 1;
+}
+.burst__note {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  margin-top: var(--s-3);
+}
+
+/* ---------- exposure list (Exhibit 2) ---------- */
+.mc2-exposure {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+}
+.mc2-exposure__row {
+  display: grid;
+  grid-template-columns: 112px 1fr auto;
+  gap: var(--s-3);
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  padding: var(--s-2) var(--s-3);
+  border: var(--line) solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--swell);
+}
+.mc2-exposure__row .t {
+  color: var(--ink-3);
+}
+.mc2-exposure__row .desc {
+  color: var(--ink-2);
+  font-family: var(--font);
+}
+.mc2-exposure__row .desc b {
+  color: var(--ink);
+}
+
+/* ---------- provenance (Exhibit 5) ---------- */
+.mc2-prov {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-5);
+}
+.mc2-prov__row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+}
+.mc2-prov__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-small);
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+.mc2-prov__name .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.mc2-prov__chain {
+  display: flex;
+  align-items: stretch;
+  overflow-x: auto;
+  min-width: 0;
+}
+.mc2-prov__card {
+  flex: 0 0 auto;
+  width: 150px;
+  border: var(--line) solid var(--rule);
+  border-radius: var(--radius-md);
+  background: var(--swell);
+  padding: var(--s-3);
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  line-height: 1.4;
+}
+.mc2-prov__card .t {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 11px;
+  color: var(--ink);
+  margin-bottom: 3px;
+}
+.mc2-prov__card .d {
+  color: var(--ink-2);
+}
+.mc2-prov__card.missing {
+  border-style: dashed;
+  background: transparent;
+  color: var(--ink-3);
+}
+.mc2-prov__card.missing .t {
+  color: var(--ink-3);
+}
+.mc2-prov__card.unknown {
+  border-style: dashed;
+  border-color: var(--signal-breach);
+  background: color-mix(in srgb, var(--signal-breach) 10%, transparent);
+}
+.mc2-prov__arrow {
+  flex: 0 0 auto;
+  width: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.mc2-prov__arrow svg {
+  display: block;
+}
+.mc2-prov__arrow .lbl {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+
+/* ---------- funnel (Exhibit 10) ---------- */
+.funnel {
+  display: flex;
+  flex-direction: column;
+  min-width: 420px;
+}
+.funnel__drop {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-3);
+  padding: 4px 0 4px 166px;
+}
+.funnel__drop b {
+  color: var(--ink-2);
+}
+.funnel__bar-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  gap: var(--s-3);
+}
+.funnel__label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  text-align: right;
+}
+.funnel__track {
+  position: relative;
+}
+.funnel__bar {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--s-3);
+  transition: width var(--t-data) var(--ease-out);
+}
+.funnel__count {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  color: var(--ground);
+}
+
+/* ---------- footer ---------- */
+.mc2-footer {
+  padding: var(--s-6) var(--gutter) 0;
+}
+.mc2-footer p {
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  color: var(--ink-3);
+  line-height: 1.6;
+  max-width: 80ch;
+}
+

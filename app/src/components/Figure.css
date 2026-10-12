@@ -1,0 +1,118 @@
+@import "../styles/tokens.css";
+
+/* Figure — title that states the finding, plot, legend, caption, table toggle. */
+.fig {
+  margin: 0;
+}
+
+.fig__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+}
+
+.fig__title {
+  font-family: var(--font-display);
+  font-weight: var(--w-display);
+  font-size: var(--fs-card);
+  margin: 0;
+}
+
+.fig__sub {
+  color: var(--ink-2);
+  font-size: var(--fs-small);
+  margin-top: 3px;
+  max-width: 68ch;
+}
+
+.fig__controls {
+  display: flex;
+  gap: var(--s-2);
+  flex-wrap: wrap;
+  margin-top: var(--s-3);
+}
+
+.fig__legend {
+  display: flex;
+  gap: var(--s-4);
+  flex-wrap: wrap;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  margin-top: var(--s-3);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex: none;
+}
+
+.legend-swatch--square {
+  border-radius: 2px;
+}
+
+.legend-swatch--outline {
+  background: transparent;
+  border: 1.5px solid var(--ink-3);
+}
+
+.fig__body {
+  margin-top: var(--s-4);
+  background: var(--cloth);
+  border: var(--line) solid var(--rule);
+  border-radius: var(--radius-md);
+  padding: var(--s-4);
+  min-width: 0;
+}
+
+.fig__cap {
+  font-size: var(--fs-label);
+  color: var(--ink-3);
+  margin-top: var(--s-2);
+  max-width: 68ch;
+}
+
+/* Generic hook for an SVG chart rendered inside a Figure body. */
+.chart {
+  display: block;
+  max-width: 100%;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-small);
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: var(--line) solid var(--rule);
+  white-space: nowrap;
+}
+
+.data-table td.num {
+  text-align: right;
+  font-family: var(--font-mono);
+}
+
+.table-more {
+  font-size: var(--fs-label);
+  color: var(--ink-3);
+  margin-top: var(--s-2);
+}
